@@ -20,8 +20,9 @@ Product Manager is able to directly get customer feedback from live online retai
 
 . You can provide feedback of the *Smart Retail Application* product as per details given below:
 
-.. Click on Coolstore tag from the top.
-.. Type something as feedback in the box and submit.
++
+* Click on `Coolstore` tab from the top.
+* Type something as feedback in the box and submit.
 
 
 . Login to *Event-driven Ansible* console to observe how it triggers Ansible Controller  *Job Template* upon submitting the feedback in Smart Retail Application, Details are given below:
