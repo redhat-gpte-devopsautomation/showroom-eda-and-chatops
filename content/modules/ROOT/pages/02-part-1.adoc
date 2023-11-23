@@ -20,7 +20,7 @@ Product Manager is able to directly get customer feedback from live online retai
 
 . You can provide feedback of the *Smart Retail Application* product as per details given below:
 
-+
+
 * Click on `Coolstore` tab from the top.
 * Type something as feedback in the box and submit.
 
@@ -35,8 +35,9 @@ Product Manager is able to directly get customer feedback from live online retai
 |===
 
 . Login to *Automation Controller* to observe the job which has been triggered by Event-driven Ansible upon submitting the feedback. The Automation Controller job will  post the formatted feedback in the rocketchat for the product manager to monitor and to take timely action, Details are given below:
-
 +
+****
+
 |===
 | Automation Controller | {aap_controller_web_url}
 | Username | {aap_controller_admin_user}
@@ -45,6 +46,7 @@ Product Manager is able to directly get customer feedback from live online retai
 
 +
 * After login click on *Jobs* and observe that <NAME>
+****
 
 . Login to *RocketChat* chat monitoring system to view the new message posted by Automation Controller, Details are given below:
 
