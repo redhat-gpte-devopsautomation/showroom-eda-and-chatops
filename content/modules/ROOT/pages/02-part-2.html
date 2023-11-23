@@ -444,7 +444,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h2 id="_addressing_challenge">1. Addressing Challenge:</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Product Manager is able to directly get customer feedback from live online retail e-commerce website to its chat monitoring system for timely action.</p>
+<p>As an admin, how easy it is for connecting chatops system to EDA. This will help the product manager’s to directly command from chat system to trigger a change for a specific category for. E.g discount or disable that category on online retail website.</p>
 </div>
 </div>
 </div>
@@ -454,78 +454,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>Login to <strong>Smart Retail Application</strong> to provide feedback for the clothing product as per details given below:</p>
-<div class="sidebarblock">
-<div class="content">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Web Url</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}" class="bare">https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}</a></p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Username</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">asilva</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Password</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">openshift</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</li>
-<li>
-<p>You can provide feedback of the <strong>Smart Retail Application</strong> product as per details given below:</p>
-<div class="sidebarblock">
-<div class="content">
-<div class="ulist">
-<ul>
-<li>
-<p>Click on <code>Coolstore</code> tab from the top.</p>
-</li>
-<li>
-<p>Type something as feedback in the box and submit.</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</li>
-<li>
-<p>Login to <strong>Event-driven Ansible</strong> console to observe how it triggers Ansible Controller  <strong>Job Template</strong> upon submitting the feedback in Smart Retail Application, Details are given below:</p>
-<div class="sidebarblock">
-<div class="content">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Event-driven Ansible</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">{eda_controller_web_url}</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Username</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">{eda_controller_admin_user}</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Password</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">{eda_controller_admin_password}</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</li>
-<li>
-<p>Login to <strong>Automation Controller</strong> to observe the job which has been triggered by Event-driven Ansible upon submitting the feedback. The Automation Controller job will  post the formatted feedback in the rocketchat for the product manager to monitor and to take timely action, Details are given below:</p>
+<p>Login to <strong>Automation Controller</strong> and create <strong>Job Template</strong> to take an action on Smart Retail Application products based on message posted by product manager in RocketChat. Details are given below:</p>
 <div class="sidebarblock">
 <div class="content">
 <table class="tableblock frame-all grid-all stretch">
@@ -551,7 +480,23 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>After login click on <strong>Jobs</strong> and observe that &lt;NAME&gt;</p>
+<p>Click on <strong>Job Templates</strong> abd create new job template as per details give below:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Name</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">test</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">playbook</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
 </li>
 </ul>
 </div>
@@ -559,7 +504,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </li>
 <li>
-<p>Login to <strong>RocketChat</strong> chat monitoring system to view the new message posted by Automation Controller, Details are given below:</p>
+<p>Login to <strong>Event-driven Ansible</strong> to create Rulebook Activation which will trigger Ansible Controller  <strong>Job Template</strong> upon submitting the feedback in Smart Retail Application, Details are given below:</p>
 <div class="sidebarblock">
 <div class="content">
 <table class="tableblock frame-all grid-all stretch">
@@ -569,55 +514,43 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">RocketChat Url</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">{rocketchat_url}</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Event-driven Ansible</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">{eda_controller_web_url}</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Username</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">pm_clothing</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">{eda_controller_admin_user}</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Password</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">{rocketchat_admin_password}</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">{eda_controller_admin_password}</p></td>
 </tr>
 </tbody>
 </table>
 <div class="ulist">
 <ul>
 <li>
-<p>Click to #clothing channel and observe new message which has original feedback along with other product details which helps product manager to monitor the products effectively.</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_lab_challenge_optional">3. Lab Challenge (Optional)</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>You may trigger and observe the whole process for utensils product, Following are the details required to monitor utensils product.</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>You can provide feedback for utensils product as per details given below:</p>
-<div class="sidebarblock">
-<div class="content">
-<div class="ulist">
-<ul>
-<li>
-<p>Click on <code>Coolstore</code> tab from the top.</p>
-</li>
-<li>
-<p>Select utensils</p>
-</li>
-<li>
-<p>Type something as feedback in the box and submit.</p>
+<p>Click on Rulebook Activation and Added new rulebook as per details given below:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Name</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">test</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">project</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">playbook</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
 </li>
 </ul>
 </div>
@@ -625,7 +558,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </li>
 <li>
-<p><strong>RocketChat</strong> login details:</p>
+<p>Login to <strong>OpenShift Console</strong> to provide feedback for the clothing product as per details given below:</p>
 <div class="sidebarblock">
 <div class="content">
 <table class="tableblock frame-all grid-all stretch">
@@ -635,26 +568,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">RocketChat Url</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">{rocketchat_url}</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Web Url</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}" class="bare">https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Username</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">pm_utensils</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">asilva</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Password</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">{rocketchat_admin_password}</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">openshift</p></td>
 </tr>
 </tbody>
 </table>
-<div class="ulist">
-<ul>
-<li>
-<p>Click on #utensils chatroom.</p>
-</li>
-</ul>
-</div>
 </div>
 </div>
 </li>
@@ -665,7 +591,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-11-23 18:41:45 +0530
+Last updated 2023-11-23 19:00:02 +0530
 </div>
 </div>
 </body>
