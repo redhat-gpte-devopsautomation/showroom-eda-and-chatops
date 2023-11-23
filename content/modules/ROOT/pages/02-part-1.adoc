@@ -1,0 +1,59 @@
+= Solution Addressing The Challenges
+:numbered:
+
+== Addressing Challenge: 
+
+Product Manager is able to directly get customer feedback from live online retail e-commerce website to its chat monitoring system for timely action.
+
+
+== Solution
+
+. Login to *Smart Retail Application* to provide feedback for the product as per details given below:
+
++
+|===
+| Web Url | https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}
+| Username | asilva
+| Password | openshift
+|===
+
+
+. You can provide feedback of the *Smart Retail Application* product as per details given below:
+
+.. Click on Coolstore tag from the top.
+.. Type something as feedback in the box and submit.
+
+
+. Login to *Event-driven Ansible* console to observe how it triggers Ansible Controller  *Job Template* upon submitting the feedback in Smart Retail Application, Details are given below:
+
++
+|===
+| Event-driven Ansible | {eda_controller_web_url}
+| Username | {eda_controller_admin_user}
+| Password | {eda_controller_admin_password}
+|===
+
+. Login to *Automation Controller* to observe the job which has been triggered by Event-driven Ansible upon submitting the feedback. The Automation Controller job will  post the formatted feedback in the rocketchat for the product manager to monitor and to take timely action, Details are given below:
+
++
+|===
+| Automation Controller | {aap_controller_web_url}
+| Username | {aap_controller_admin_user}
+| Password | {aap_controller_admin_password}
+|===
+
++
+* After login click on *Jobs* and observe that <NAME>
+
+. Login to *RocketChat* chat monitoring system to view the new message posted by Automation Controller, Details are given below:
+
++
+|===
+| RocketChat Url | {rocketchat_url}
+| Username | pm_clothing
+| Password | {rocketchat_admin_password}
+|===
+
++
+* Click to #clothing channel and observe new message which has original feedback along with other product details which helps product manager to monitor the products effectively. 
+

@@ -1,3 +1,6 @@
 * xref:00-agenda.adoc[1. Agenda]
 
 * xref:01-introduction.adoc[2. Workshop Introduction]
+
+* xref:02-part-1.adoc[3. Part-1]
+* xref:02-part-2.adoc[4. Part-2]
