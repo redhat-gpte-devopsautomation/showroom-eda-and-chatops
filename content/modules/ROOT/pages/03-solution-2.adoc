@@ -65,14 +65,33 @@ As an admin, how easy it is for connecting chatops system to EDA. This will help
 ****
 
 
-. Login to *RocketChat* :
+. Login to *RocketChat* to setup webhook for Event-driven Ansible as per details given below:
 
 +
 ****
+.. Login details-
++
 |===
 | RocketChat Url | {rocketchat_url}
 | Username | admin
 | Password | {rocketchat_admin_password}
 |===
+
+.. Navigate to administration option and then click integration (click on other links 02then back to integration if nothing get displayed upon first click).
+.. Click on New Integration then click Outgoing Webhook.
+.. Select Message sent from the dropdown list  for the Event Trigger.
+.. Fill the option as follows:
++
+|===
+| Name | Event-driven Ansible and ChatOps
+| Channel | #clothing,#utensils
+| Trigger Words | update,continue,discontinue
+| Urls | Past the eda-route link here
+| Impersonate User | True
+| Post as | admin
+|===
+.. Leave the rest as default
+.. Click on Save Changes from above right corner
+
 ****
 

@@ -1,0 +1,71 @@
+= Solution Addressing The Challenges
+:numbered:
+
+== Addressing Challenge: 
+
+PM can take data points from grafana dashboard showing overall as well as historical sentiments of customer for specific category and with live feedback from the chat system for specific product in that specific category to make constructive decisions like discounting the product or disabling it.  
+
+
+== Solution
+
+. Login to *Smart Retail Application* to provide feedback for the clothing product as per details given below:
+
++
+****
+.. Login details:
++
+|===
+| Web Url | https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}
+| Username | asilva
+| Password | openshift
+|===
+
+.. Click on `Coolstore` tab from the top.
+.. Select tshirt and type something as feedback in the box and submit.
+****
+
+. Login to *RocketChat* chat monitoring system to view the new message:
+
++
+****
+.. Login details:
++
+|===
+| RocketChat Url | {rocketchat_url}
+| Username | pm_clothing
+| Password | {rocketchat_admin_password}
+|===
+
+* Click to #clothing channel and observe new message which has original feedback along with other product details. 
+****
+
+. Login to Grafana dashboard for monitoring the historical sentiments for the product:
++
+****
+.. Login details:
++
+|===
+| Grafana URL | https://grafana-route-influxdb-project.{openshift_cluster_ingress_domain}
+| Username | admin
+| Password | {gitea_admin_password}
+|===
+
+* Select from the dropdown manue.
+* Observe the sentiments.
+****
+
+
+. As product manager you now directly take action on the product after reading message and monitoring the sentiments by send message in the #clothing channel. 
+
++
+****
+NOTE: Product manager has three action update,discontinue,and continue which can take against a product.
+
+.. Type update,<id of the product>,price
+.. E.g update,398222222,5
+.. Now wait for the acknowledgement  from Event-driven Ansible
+.. After the acknowledgement, go back to the coolstore, refresh the page and you will see the update price. 
+****
+
+
+
