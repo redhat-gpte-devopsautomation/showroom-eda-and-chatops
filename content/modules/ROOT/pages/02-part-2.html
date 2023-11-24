@@ -558,7 +558,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </li>
 <li>
-<p>Login to <strong>OpenShift Console</strong> to provide feedback for the clothing product as per details given below:</p>
+<p>Login to <strong>OpenShift Console</strong> to route for Event-driven Ansible rulebook activation which you have created in previous step, Details are given below.</p>
 <div class="sidebarblock">
 <div class="content">
 <table class="tableblock frame-all grid-all stretch">
@@ -568,16 +568,73 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Web Url</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}" class="bare">https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Console URL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">{openshift_console_url}</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Username</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">asilva</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">{openshift_cluster_admin_username}</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Password</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">openshift</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">{openshift_cluster_admin_password}</p></td>
+</tr>
+</tbody>
+</table>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select <strong>aap</strong> project.</p>
+</li>
+<li>
+<p>Navigate to route and create new route as per details give below:</p>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Name</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">test</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">project</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">playbook</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</li>
+<li>
+<p>Login to <strong>RocketChat</strong> :</p>
+<div class="sidebarblock">
+<div class="content">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RocketChat Url</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">{rocketchat_url}</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Username</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">admin</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Password</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">{rocketchat_admin_password}</p></td>
 </tr>
 </tbody>
 </table>
@@ -591,7 +648,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-11-23 19:00:02 +0530
+Last updated 2023-11-23 19:32:34 +0530
 </div>
 </div>
 </body>

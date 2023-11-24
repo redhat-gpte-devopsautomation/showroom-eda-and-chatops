@@ -74,4 +74,5 @@ As an admin, how easy it is for connecting chatops system to EDA. This will help
 | Username | admin
 | Password | {rocketchat_admin_password}
 |===
+****
 
