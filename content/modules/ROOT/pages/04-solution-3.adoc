@@ -12,13 +12,12 @@ PM can take data points from grafana dashboard showing overall as well as histor
 
 +
 ****
-.. Login details:
+.. Login details
 +
-|===
-| Web Url | https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}
-| Username | asilva
-| Password | openshift
-|===
+* Web Url   => https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}
+* Username  => asilva
+* Password  => openshift
+
 
 .. Click on `Coolstore` tab from the top.
 .. Select tshirt and type something as feedback in the box and submit.
@@ -30,13 +29,12 @@ PM can take data points from grafana dashboard showing overall as well as histor
 ****
 .. Login details:
 +
-|===
-| RocketChat Url | {rocketchat_url}
-| Username | pm_clothing
-| Password | {rocketchat_admin_password}
-|===
 
-* Click to #clothing channel and observe new message which has original feedback along with other product details. 
+* RocketChat Url => {rocketchat_url}
+* Username  => pm_clothing
+* Password => {rocketchat_admin_password}
+
+.. Click to #clothing channel and observe new message which has original feedback along with other product details. 
 ****
 
 . Login to Grafana dashboard for monitoring the historical sentiments for the product:
@@ -44,14 +42,13 @@ PM can take data points from grafana dashboard showing overall as well as histor
 ****
 .. Login details:
 +
-|===
-| Grafana URL | https://grafana-route-influxdb-project.{openshift_cluster_ingress_domain}
-| Username | admin
-| Password | {gitea_admin_password}
-|===
 
-* Select from the dropdown manue.
-* Observe the sentiments.
+* Grafana URL => https://grafana-route-influxdb-project.{openshift_cluster_ingress_domain}
+* Username => admin
+* Password => {gitea_admin_password}
+
+.. Select from the dropdown manue.
+.. Observe the sentiments.
 ****
 
 
@@ -59,7 +56,7 @@ PM can take data points from grafana dashboard showing overall as well as histor
 
 +
 ****
-NOTE: Product manager has three action update,discontinue,and continue which can take against a product.
+TIP: Product manager has three action update,discontinue,and continue which can take against a product.
 
 .. Type update,<id of the product>,price
 .. E.g update,398222222,5

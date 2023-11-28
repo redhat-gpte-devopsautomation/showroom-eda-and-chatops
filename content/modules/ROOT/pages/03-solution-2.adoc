@@ -12,36 +12,34 @@ As an admin, how easy it is for connecting chatops system to EDA. This will help
 
 +
 ****
-|===
-| Automation Controller | {aap_controller_web_url}
-| Username | {aap_controller_admin_user}
-| Password | {aap_controller_admin_password}
-|===
+.. Login details:
 
-* Click on *Job Templates* abd create new job template as per details give below:
 +
-|===
-| Name | test
-| playbook |
-|===
+* Automation Controller => {aap_controller_web_url}
+* Username => {aap_controller_admin_user}
+* Password => {aap_controller_admin_password}
+
+.. Click on *Job Templates* abd create new job template as per details give below:
++
+* Name => test
+* playbook =>
 ****
 
 . Login to *Event-driven Ansible* to create Rulebook Activation which will trigger Ansible Controller  *Job Template* upon submitting the feedback in Smart Retail Application, Details are given below:
 
 +
 ****
-|===
-| Event-driven Ansible | {eda_controller_web_url}
-| Username | {eda_controller_admin_user}
-| Password | {eda_controller_admin_password}
-|===
-* Click on Rulebook Activation and Added new rulebook as per details given below:
+.. Login details:
 +
-|===
-| Name | test
-| project |
-| playbook |
-|===
+* Event-driven Ansible => {eda_controller_web_url}
+* Username => {eda_controller_admin_user}
+* Password => {eda_controller_admin_password}
+
+.. Click on Rulebook Activation and Added new rulebook as per details given below:
++
+* Name => test
+* project =>
+* playbook =>
 ****
 
 
@@ -49,19 +47,19 @@ As an admin, how easy it is for connecting chatops system to EDA. This will help
 
 +
 ****
-|===
-| Console URL |{openshift_console_url}
-| Username | {openshift_cluster_admin_username}
-| Password |{openshift_cluster_admin_password}
-|===
-. Select *aap* project.
-. Navigate to route and create new route as per details give below:
+.. Login details:
 +
-|===
-| Name | test
-| project |
-| playbook |
-|===
+* Console URL => {openshift_console_url}
+* Username => {openshift_cluster_admin_username}
+* Password => {openshift_cluster_admin_password}
+
+.. Select *aap* project.
+.. Navigate to route and create new route as per details give below:
++
+
+* Name => test
+* project =>
+* playbook =>
 ****
 
 
@@ -71,25 +69,25 @@ As an admin, how easy it is for connecting chatops system to EDA. This will help
 ****
 .. Login details-
 +
-|===
-| RocketChat Url | {rocketchat_url}
-| Username | admin
-| Password | {rocketchat_admin_password}
-|===
+* RocketChat Url => {rocketchat_url}
+* Username => admin
+* Password => {rocketchat_admin_password}
 
-.. Navigate to administration option and then click integration (click on other links 02then back to integration if nothing get displayed upon first click).
+.. Navigate to administration option and then click integration
+
+TIP | Click on other links 02then back to integration if nothing get displayed upon first click).
+
 .. Click on New Integration then click Outgoing Webhook.
 .. Select Message sent from the dropdown list  for the Event Trigger.
 .. Fill the option as follows:
 +
-|===
-| Name | Event-driven Ansible and ChatOps
-| Channel | #clothing,#utensils
-| Trigger Words | update,continue,discontinue
-| Urls | Past the eda-route link here
-| Impersonate User | True
-| Post as | admin
-|===
+* Name => Event-driven Ansible and ChatOps
+* Channel => #clothing,#utensils
+* Trigger Words => update,continue,discontinue
+* Urls => Paste the eda-route link here
+* Impersonate User => True
+* Post as => admin
+
 .. Leave the rest as default
 .. Click on Save Changes from above right corner
 

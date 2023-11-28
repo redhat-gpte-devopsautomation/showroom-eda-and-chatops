@@ -12,11 +12,11 @@ Product Manager is able to directly get customer feedback from live online retai
 
 +
 ****
-|===
-| Web Url | https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}
-| Username | asilva
-| Password | openshift
-|===
+.. Login details:
++
+* Web Url => https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}
+* Username => asilva
+* Password => openshift
 ****
 
 
@@ -24,8 +24,8 @@ Product Manager is able to directly get customer feedback from live online retai
 
 +
 ****
-* Click on `Coolstore` tab from the top.
-* Type something as feedback in the box and submit.
+.. Click on `Coolstore` tab from the top.
+.. Type something as feedback in the box and submit.
 ****
 
 
@@ -33,37 +33,38 @@ Product Manager is able to directly get customer feedback from live online retai
 
 +
 ****
-|===
-| Event-driven Ansible | {eda_controller_web_url}
-| Username | {eda_controller_admin_user}
-| Password | {eda_controller_admin_password}
-|===
+.. Login details:
++
+* Event-driven Ansible => {eda_controller_web_url}
+* Username => {eda_controller_admin_user}
+* Password => {eda_controller_admin_password}
 ****
+
 
 . Login to *Automation Controller* to observe the job which has been triggered by Event-driven Ansible upon submitting the feedback. The Automation Controller job will  post the formatted feedback in the rocketchat for the product manager to monitor and to take timely action, Details are given below:
 
 +
 ****
-|===
-| Automation Controller | {aap_controller_web_url}
-| Username | {aap_controller_admin_user}
-| Password | {aap_controller_admin_password}
-|===
+.. Login details:
++
+* Automation Controller => {aap_controller_web_url}
+* Username => {aap_controller_admin_user}
+* Password => {aap_controller_admin_password}
 
-* After login click on *Jobs* and observe that <NAME>
+.. After login click on *Jobs* and observe that <NAME>
 ****
 
 . Login to *RocketChat* chat monitoring system to view the new message posted by Automation Controller, Details are given below:
 
 +
 ****
-|===
-| RocketChat Url | {rocketchat_url}
-| Username | pm_clothing
-| Password | {rocketchat_admin_password}
-|===
+.. Login details:
++
+* RocketChat Url => {rocketchat_url}
+* Username => pm_clothing
+* Password => {rocketchat_admin_password}
 
-* Click to #clothing channel and observe new message which has original feedback along with other product details which helps product manager to monitor the products effectively. 
+.. Click to #clothing channel and observe new message which has original feedback along with other product details which helps product manager to monitor the products effectively. 
 ****
 
 == Lab Challenge (Optional)
@@ -74,20 +75,20 @@ You may trigger and observe the whole process for utensils product, Following ar
 
 +
 ****
-* Click on `Coolstore` tab from the top.
-* Select utensils
-* Type something as feedback in the box and submit.
+.. Click on `Coolstore` tab from the top.
+.. Select utensils
+.. Type something as feedback in the box and submit.
 ****
 
 . *RocketChat* login details:
 
 +
 ****
-|===
-| RocketChat Url | {rocketchat_url}
-| Username | pm_utensils
-| Password | {rocketchat_admin_password}
-|===
+.. Login details: 
++
+* RocketChat Url => {rocketchat_url}
+* Username => pm_utensils
+* Password => {rocketchat_admin_password}
 
-* Click on #utensils chatroom.
+.. Click on #utensils chatroom.
 ****
