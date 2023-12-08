@@ -58,9 +58,8 @@ image::01_coolstore_feedback-3.jpg[Review, 640]
 * Username => {eda_controller_admin_user}
 * Password => {eda_controller_admin_password}
 
-+
 .Event-driven Ansible Login Page
-image::03_eda_login.jpg[Event-driven Ansible, 640]
+image::03_eda_login.jpg[Event-driven Ansible, 400]
 
 .. Click on `Rulebook Activations` and Observe `push-favourable-feedback` Fire count has got increased by 1.
 +
