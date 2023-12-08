@@ -20,7 +20,7 @@ Product Manager is able to directly get customer feedback from live online retai
 
 +
 .Smart Retails Main Page
-image::01_coolstore_login.jpg[login, 640]
+image::01_coolstore_login.jpg[login, 600]
 
 +
 .Smart Retails Login Page
@@ -81,7 +81,6 @@ image::04_controller_login-1.jpg[Automation_Controller,width=400,height=200]
 +
 ****
 .. Login details:
-
 * RocketChat Url => {rocketchat_url}
 * Username => pm_clothing
 * Password => {rocketchat_admin_password}
