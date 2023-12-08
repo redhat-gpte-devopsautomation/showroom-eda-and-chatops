@@ -17,12 +17,11 @@ Product Manager is able to directly get customer feedback from live online retai
 * Username => asilva
 * Password => openshift
 
-
-
++
 .Smart Retails Main Page
 image::01_coolstore_login.jpg[login, 640]
 
-
++
 .Smart Retails Login Page
 image::01_coolstore_login_creds.jpg[login, 640]
 ****
@@ -33,17 +32,17 @@ image::01_coolstore_login_creds.jpg[login, 640]
 +
 ****
 .. Click on `Coolstore` tab from the top.
-
++
 .Smart Retails Home Page
 image::01_coolstore_feedback-1.jpg[Review, 640]
 
 .. Click on `QUARKUS T-SHIRT`.
-
++
 .Smart Retails Products Page
 image::01_coolstore_feedback-2.jpg[Review, 640]
 
 .. Type something good as feedback in the review box then click `Submit Review` button.
-
++
 .Smart Retails Review Page
 image::01_coolstore_feedback-3.jpg[Review, 640]
 ****
@@ -69,12 +68,12 @@ image::03_eda_login.jpg[Event-driven Ansible, 640]
 image::03_eda_favourable_trigger.jpg[Event-driven Ansible, 640]
 
 .. Click on `push-favourable-feedback` rulebook activations and then click on `History` to list logs history.
-
++
 .Event-driven Ansible Rulebook Activations History Page
 image::03_eda_favourable_trigger_history-1.jpg[Event-driven Ansible, 640]
 
 .. Click on latest `x- push-favourable-feedback` to read triggered logs and observe the log.
-
++
 .Event-driven Ansible Rulebook Activations History Logs
 image::03_eda_favourable_trigger_history-2.jpg[Event-driven Ansible, 640]
 
@@ -86,6 +85,7 @@ image::03_eda_favourable_trigger_history-2.jpg[Event-driven Ansible, 640]
 +
 ****
 .. Login details:
++
 * Automation Controller => {aap_controller_web_url}
 * Username => {aap_controller_admin_user}
 * Password => {aap_controller_admin_password}
@@ -111,7 +111,7 @@ image::04_controller_login-1.jpg[Automation_Controller,width=400,height=200]
 image::05_rocketchat_login-1.jpg[Rocketchat, 640]
 
 .. Click to #clothing channel and observe new message which has original feedback along with other product details which helps product manager to monitor the products effectively.
-
++
 .RocketChat Channels
 image::05_rocketchat_login-2.jpg[Rocketchat, 640]
 
