@@ -1,10 +1,10 @@
 
-* AI Based Smart Retail: Event-Driven Ansible & ChatOps
+. AI Based Smart Retail: Event-Driven Ansible & ChatOps
 
 * xref:00-agenda.adoc[1. Agenda]
 * xref:01-introduction.adoc[2. Workshop Introduction]
 
-* Solution Addressing The Challenges 
+. Solution Addressing The Challenges 
 * xref:02-solution-1.adoc[3. Solution-1]
 * xref:03-solution-2.adoc[4. Solution-2]
 * xref:04-solution-3.adoc[4. Solution-3]
