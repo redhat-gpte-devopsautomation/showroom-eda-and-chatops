@@ -54,6 +54,7 @@ image::01_coolstore_feedback-3.jpg[Review, 640]
 +
 ****
 .. Login details:
++
 * Event-driven Ansible => {eda_controller_web_url}
 * Username => {eda_controller_admin_user}
 * Password => {eda_controller_admin_password}
