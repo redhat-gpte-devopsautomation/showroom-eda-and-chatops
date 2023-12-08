@@ -18,7 +18,7 @@ Product Manager is able to directly get customer feedback from live online retai
 * Username => asilva
 * Password => openshift
 
-.. Sample Login Screenshots
+
 +
 .Smart Retails Main Page
 image::01_coolstore_login.jpg[login, 640]
