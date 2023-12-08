@@ -81,7 +81,13 @@ image::01_coolstore_feedback-3.jpg[Review, 640]
 * Username => pm_clothing
 * Password => {rocketchat_admin_password}
 
-.. Click to #clothing channel and observe new message which has original feedback along with other product details which helps product manager to monitor the products effectively. 
++
+image::03_rocketchat_login-1.jpg[Rocketchat, 640]
+
+.. Click to #clothing channel and observe new message which has original feedback along with other product details which helps product manager to monitor the products effectively.
++
+image::03_rocketchat_login-2.jpg[Rocketchat, 640]
+
 ****
 
 == Lab Challenge (Optional)
