@@ -91,9 +91,18 @@ image::03_eda_favourable_trigger_history-2.jpg[Event-driven Ansible, 640]
 
 
 .Automation Controller Login Page
-image::04_controller_login-1.jpg[Automation_Controller,width=400,height=200]
+image::04_controller_login-1.jpg[Automation_Controller,350]
 
-.. After login click on *Jobs* and observe that <NAME>
+.. Click on `Jobs` and observe latest executed job `X- push-favourable-feedback`.
++
+.Automation Controller Jobs Page
+image::04_controller_job-1.jpg[Automation_Controller,350]
+
+.. Click on `X- push-favourable-feedback` to view and observe the logs.
++
+.Automation Controller Jobs Details
+image::04_controller_job-2.jpg[Automation_Controller,350]
+
 ****
 
 . Login to *RocketChat* chat monitoring system to view the new message posted by Automation Controller, Details are given below:
