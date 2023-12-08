@@ -71,7 +71,7 @@ image::03_eda_favourable_trigger.jpg[Event-driven Ansible, 640]
 .Event-driven Ansible Rulebook Activations History Page
 image::03_eda_favourable_trigger_history-1.jpg[Event-driven Ansible, 640]
 
-.. Click on latest `x- push-favourable-feedback` to read triggered logs and observe the log.
+.. Click on latest `X - push-favourable-feedback` to read triggered logs and observe the log.
 +
 .Event-driven Ansible Rulebook Activations History Logs
 image::03_eda_favourable_trigger_history-2.jpg[Event-driven Ansible, 640]
@@ -93,12 +93,12 @@ image::03_eda_favourable_trigger_history-2.jpg[Event-driven Ansible, 640]
 .Automation Controller Login Page
 image::04_controller_login-1.jpg[Automation_Controller,350]
 
-.. Click on `Jobs` and observe latest executed job `X- push-favourable-feedback`.
+.. Click on `Jobs` and observe latest executed job `X - push-favourable-feedback`.
 +
 .Automation Controller Jobs Page
 image::04_controller_job-1.jpg[Automation_Controller,640]
 
-.. Click on `X- push-favourable-feedback` to view and observe the logs.
+.. Click on `X - push-favourable-feedback` to view and observe the logs.
 +
 .Automation Controller Jobs Details
 image::04_controller_job-2.jpg[Automation_Controller,640]
@@ -118,7 +118,7 @@ image::04_controller_job-2.jpg[Automation_Controller,640]
 .RocketChat Login page
 image::05_rocketchat_login-1.jpg[Rocketchat, 640]
 
-.. Click to #clothing channel and observe new message which has original feedback along with other product details which helps product manager to monitor the products effectively.
+.. Click to `#clothing`` channel and observe new message which has original feedback along with other product details which helps product manager to monitor the products effectively.
 +
 .RocketChat Channels
 image::05_rocketchat_login-2.jpg[Rocketchat, 640]
