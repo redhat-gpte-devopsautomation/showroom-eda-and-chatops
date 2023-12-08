@@ -57,6 +57,25 @@ image::01_coolstore_feedback-3.jpg[Review, 640]
 * Event-driven Ansible => {eda_controller_web_url}
 * Username => {eda_controller_admin_user}
 * Password => {eda_controller_admin_password}
+
+.Event-driven Ansible Login Page
+image::03_eda_favourable_login.jpg[Event-driven Ansible, 640]
+
+.. Click on `Rulebook Activations` and Observe `push-favourable-feedback` Fire count has got increased by 1.
+
+.Event-driven Ansible Rulebook Activations Page
+image::03_eda_favourable_trigger.jpg[Event-driven Ansible, 640]
+
+.. Click on `push-favourable-feedback` rulebook activations and then click on `History` to list logs history.
+
+.Event-driven Ansible Rulebook Activations History Page
+image::03_eda_favourable_trigger_history-1.jpg[Event-driven Ansible, 640]
+
+.. Click on latest `x- push-favourable-feedback` to read triggered logs and observe the log.
+
+.Event-driven Ansible Rulebook Activations History Logs
+image::03_eda_favourable_trigger_history-2.jpg[Event-driven Ansible, 640]
+
 ****
 
 
