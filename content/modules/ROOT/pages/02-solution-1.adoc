@@ -13,7 +13,6 @@ Product Manager is able to directly get customer feedback from live online retai
 +
 ****
 .. Login details:
-+
 * Web Url => https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}
 * Username => asilva
 * Password => openshift
@@ -55,7 +54,6 @@ image::01_coolstore_feedback-3.jpg[Review, 640]
 +
 ****
 .. Login details:
-+
 * Event-driven Ansible => {eda_controller_web_url}
 * Username => {eda_controller_admin_user}
 * Password => {eda_controller_admin_password}
@@ -67,7 +65,6 @@ image::01_coolstore_feedback-3.jpg[Review, 640]
 +
 ****
 .. Login details:
-+
 * Automation Controller => {aap_controller_web_url}
 * Username => {aap_controller_admin_user}
 * Password => {aap_controller_admin_password}
@@ -84,7 +81,7 @@ image::04_controller_login-1.jpg[Automation_Controller,width=400,height=200]
 +
 ****
 .. Login details:
-+
+
 * RocketChat Url => {rocketchat_url}
 * Username => pm_clothing
 * Password => {rocketchat_admin_password}
