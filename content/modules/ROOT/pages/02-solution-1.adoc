@@ -118,7 +118,7 @@ image::04_controller_job-2.jpg[Automation_Controller,640]
 .RocketChat Login page
 image::05_rocketchat_login-1.jpg[Rocketchat, 640]
 
-.. Click to `#clothing`` channel and observe new message which has original feedback along with other product details which helps product manager to monitor the products effectively.
+.. Click to `#clothing` channel and observe new message which has original feedback along with other product details which helps product manager to monitor the products effectively.
 +
 .RocketChat Channels
 image::05_rocketchat_login-2.jpg[Rocketchat, 640]
