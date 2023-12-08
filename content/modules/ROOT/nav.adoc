@@ -4,9 +4,10 @@
 * xref:00-agenda.adoc[1.2 Agenda]
 * xref:01-introduction.adoc[1.3 Workshop Introduction]
 
-.*Solution Addressing The Challenges *
+.*Solution Addressing The Challenges*
 * xref:02-solution-1.adoc[2.1 Solution-1]
 * xref:03-solution-2.adoc[2.2 Solution-2]
 * xref:04-solution-3.adoc[2.3 Solution-3]
 
-._Support_
+.*_Support_*
+* _rhdp_help@redhat.com_
