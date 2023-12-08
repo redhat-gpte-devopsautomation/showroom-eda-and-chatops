@@ -69,7 +69,7 @@ image::01_coolstore_feedback-3.jpg[Review, 640]
 * Password => {aap_controller_admin_password}
 
 +
-image::04_controller_login-1.jpg[Automation_Controller, 400]
+image::04_controller_login-1.jpg[Automation_Controller,640,300]
 
 .. After login click on *Jobs* and observe that <NAME>
 ****
