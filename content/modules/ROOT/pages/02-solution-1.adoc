@@ -19,11 +19,12 @@ Product Manager is able to directly get customer feedback from live online retai
 * Password => openshift
 
 .. Sample Login Screenshots
-* Screenshot-1
 +
+.Screenshot-1
 image::01_coolstore_login.jpg[login, 640]
-* Screenshot-2
+
 +
+.Screentshot-2
 image::01_coolstore_login_creds.jpg[login, 640]
 ****
 
