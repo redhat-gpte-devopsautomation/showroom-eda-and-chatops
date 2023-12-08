@@ -1,6 +1,7 @@
 :icons: font
 
 = AI Based Smart Retail: Event-Driven Ansible & ChatOps
+:navtitle: Agenda
 
 
 == Introduction 

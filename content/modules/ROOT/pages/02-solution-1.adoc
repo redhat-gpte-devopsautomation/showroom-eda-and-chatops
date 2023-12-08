@@ -1,4 +1,5 @@
 = Solution Addressing The Challenges
+:navtitle: Product Manager: Monitoring System
 :numbered:
 
 == Addressing Challenge: 

@@ -1,6 +1,5 @@
 = Solution Addressing The Challenges
-:reftext: Install Silver Leaf's Prerequisites
-:navtitle: Getting Started
+:navtitle: Constructive Decisions
 :numbered:
 
 == Addressing Challenge: 

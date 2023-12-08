@@ -1,6 +1,7 @@
-== Introduction and Challenge Overview
+= Introduction and Challenge Overview
+:navtitle: Workshop Introduction
 
-=== The Story Behind The Solution 
+== The Story Behind The Solution 
 
 This solution pattern extends Globex, a fictitious retail store that has undergone modernization and has already adopted Kafka as a streaming platform where customers can provide feedback on their eCommerce website.
 
@@ -9,7 +10,7 @@ Based on customer sentiments (analysis using the intelligent application), an ev
 Based on the product reviews using this feedback system and Grafana dashboard can take data-driven intelligent decisions and use the same ChatOps system to either block the product, offer more discounts, etc. This again triggers an event with Ansible and implements the logic/operation being requested through the chat system. 
 
 
-=== The Solution
+== The Solution
 
 The solution is based on an Event Driven Ansible which is based on Apache Kafka and ChatOps as multiple data streaming platforms to trigger events based on filters or chat commands. The Product Reviews submitted by a customer are pushed in a Kafka topic, which is then consumed by a Review Moderation Service (moderate for foul/abusive language) and a Sentiment Analysis Service (scores the sentiment as positive or negative). In this case we only use Sentiment Analysis Service.
 
@@ -19,7 +20,7 @@ Once a review is moderated and marked as suitable, this is persisted in the Glob
 
 Based on the filters on the sentiments being received by Event Driven Ansible, triggers a playbook for a given feedback and the message is sent to the respective Product Manager (for example : Clothing or Utensils) chat room using ChatOps (Rocket Chat) System. A combination of these messages along with Granafa real time dashboard (using InfluxDB time series database) can help Product Managers decide if they want to stop a specific product within their respective category or offer more discounts, etc. Based on what they decide, issue a command on the same ChatOps system (for the specific category channel on the Rocket Chat App) to disable or discount a particular product. This triggers an event that Event Driven Ansible captures, runs the respective playbook to action the command (disabling the specific product in the database or updating the discount). 
 
-=== Lab Access
+== Lab Access
 
 The terminal window to your right is *already* logged into the lab environment as the `{ssh_user}` user via `ssh`.
 All steps of this lab are to be completed as the `{ssh_user}` user.
