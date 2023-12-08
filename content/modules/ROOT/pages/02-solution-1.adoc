@@ -68,6 +68,9 @@ image::01_coolstore_feedback-3.jpg[Review, 640]
 * Username => {aap_controller_admin_user}
 * Password => {aap_controller_admin_password}
 
++
+image::04_controller_login-1.jpg[Automation_Controller, 640]
+
 .. After login click on *Jobs* and observe that <NAME>
 ****
 
@@ -82,11 +85,11 @@ image::01_coolstore_feedback-3.jpg[Review, 640]
 * Password => {rocketchat_admin_password}
 
 +
-image::03_rocketchat_login-1.jpg[Rocketchat, 640]
+image::05_rocketchat_login-1.jpg[Rocketchat, 640]
 
 .. Click to #clothing channel and observe new message which has original feedback along with other product details which helps product manager to monitor the products effectively.
 +
-image::03_rocketchat_login-2.jpg[Rocketchat, 640]
+image::05_rocketchat_login-2.jpg[Rocketchat, 640]
 
 ****
 
