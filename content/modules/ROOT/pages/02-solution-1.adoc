@@ -21,7 +21,7 @@ Product Manager is able to directly get customer feedback from live online retai
 .Smart Retails Main Page
 image::01_coolstore_login.jpg[login, 640]
 
-+
+
 .Smart Retails Login Page
 image::01_coolstore_login_creds.jpg[login, 640]
 ****
