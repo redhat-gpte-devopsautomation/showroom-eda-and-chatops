@@ -70,7 +70,6 @@ image::01_coolstore_feedback-3.jpg[Review, 640]
 * Password => {aap_controller_admin_password}
 
 +
-[.left]
 .Automation Controller Login Page
 image::04_controller_login-1.jpg[Automation_Controller,width=400,height=200]
 
