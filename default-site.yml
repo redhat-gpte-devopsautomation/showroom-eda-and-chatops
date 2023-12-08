@@ -1,7 +1,7 @@
 site:
   title: "AI Based Smart Retail: Event-Driven Ansible & ChatOps"
   url: https://redhat-scholars.github.io/course-template
-  start_page: modules::index.adoc
+  start_page: modules::00-home.adoc
 
 ui:
   bundle:
