@@ -17,6 +17,14 @@ Product Manager is able to directly get customer feedback from live online retai
 * Web Url => https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}
 * Username => asilva
 * Password => openshift
+
+.. Sample Login Screenshots
+* Screenshot-1
++
+image::../assets/images/01_coolstore_login.jpg[login, 640]
+* Screenshot-2
++
+image::../assets/images/01_coolstore_login_creds.jpg[login, 640]
 ****
 
 
