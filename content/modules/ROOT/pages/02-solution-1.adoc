@@ -33,7 +33,16 @@ image::01_coolstore_login_creds.jpg[login, 640]
 +
 ****
 .. Click on `Coolstore` tab from the top.
-.. Type something as feedback in the box and submit.
++
+image::01_coolstore_feedback-1.jpg[login, 640]
+
+.. Click on `QUARKUS T-SHIRT`.
++
+image::01_coolstore_feedback-2.jpg[login, 640]
+
+.. Type something good as feedback in the review box then click `Submit Review` button.
++
+image::01_coolstore_feedback-3.jpg[login, 640]
 ****
 
 
