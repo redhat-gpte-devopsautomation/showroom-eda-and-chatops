@@ -96,7 +96,7 @@ image::04_controller_login-1.jpg[Automation_Controller,350]
 .. Click on `Jobs` and observe latest executed job `X- push-favourable-feedback`.
 +
 .Automation Controller Jobs Page
-image::04_controller_job-1.jpg[Automation_Controller,64]
+image::04_controller_job-1.jpg[Automation_Controller,640]
 
 .. Click on `X- push-favourable-feedback` to view and observe the logs.
 +
