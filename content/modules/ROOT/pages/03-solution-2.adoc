@@ -1,9 +1,7 @@
 = Solution Addressing The Challenges
 :navtitle: 5: Admin - Connecting ChatOps
-
 :numbered:
-:rocketchat_auth_token: gWa8hxUS2qQXsnvaRwstmoRgDpdKVBbGfZ9BPUyDhmC
-:rocketchat_user_id: DSZJkBEZPfGzFtjbu
+
 == Addressing Challenge: 
 
 As an administrator, streamlining the integration of the ChatOps system with Event-Driven Architecture (EDA) proves to be a seamless process. This integration offers a significant advantage for product managers, enabling them to effortlessly issue commands directly from the chat system. This functionality empowers product managers to swiftly trigger changes for specific categories, such as applying discounts or disabling a particular category on the online retail website.
