@@ -1,6 +1,6 @@
 
 ._AI Based Smart Retail: Event-Driven Ansible & ChatOps_
-* xref:00-home.adoc[]
+* xref:index.adoc[]
 * xref:00-agenda.adoc[]
 * xref:01-introduction.adoc[]
 
