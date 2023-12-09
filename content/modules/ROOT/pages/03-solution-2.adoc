@@ -36,14 +36,19 @@ TIP: You can skip the login process if you're already signed in.
 ... *Variables:* Kindly copy and paste the provided variables into the YAML format below for ease of use and implementation.
 +
 =====
-|---
-|eda_chatops_retail_db_host: globex-db.globex.svc.cluster.local
-|eda_chatops_retail_db_name: globex
-|eda_chatops_retail_db_password: globex
-|eda_chatops_retail_db_username: globex
-|rocketchat_url: {rocketchat_url}
-|rocketchat_auth_token: {rocketchat_auth_token}
-|rocketchat_user_id: {rocketchat_user_id}
+eda_chatops_retail_db_host: globex-db.globex.svc.cluster.local
+
+eda_chatops_retail_db_name: globex
+
+eda_chatops_retail_db_password: globex
+
+eda_chatops_retail_db_username: globex
+
+rocketchat_url: {rocketchat_url}
+
+rocketchat_auth_token: {rocketchat_auth_token}
+
+rocketchat_user_id: {rocketchat_user_id}
 =====
 
 ... Click *Save* button to save.
