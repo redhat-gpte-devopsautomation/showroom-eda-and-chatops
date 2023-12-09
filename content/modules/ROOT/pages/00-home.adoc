@@ -1,6 +1,6 @@
 
 = {lab_name}
-:navtitle: Getting Started
+:navtitle: 1: Getting Started
 
 == Workshop Overview
 

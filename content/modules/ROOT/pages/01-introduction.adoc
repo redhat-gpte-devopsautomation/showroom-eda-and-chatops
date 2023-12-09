@@ -1,5 +1,5 @@
 = Introduction and Challenge Overview
-:navtitle: Workshop Introduction
+:navtitle: 3: Workshop Introduction
 
 == The Story Behind The Solution 
 

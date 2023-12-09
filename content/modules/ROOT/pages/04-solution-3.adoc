@@ -1,10 +1,10 @@
 = Solution Addressing The Challenges
-:navtitle: Constructive Decisions
+:navtitle: 6: Constructive Decisions
 :numbered:
 
 == Addressing Challenge: 
 
-PM can take data points from grafana dashboard showing overall as well as historical sentiments of customer for specific category and with live feedback from the chat system for specific product in that specific category to make constructive decisions like discounting the product or disabling it.  
+As a Product Manager, leveraging data points extracted from the Grafana dashboard provides a comprehensive view of both the overall and historical sentiments of customers within specific product categories. By integrating real-time feedback from our chat system, we gain valuable insights into the sentiments surrounding specific products in those categories. This holistic approach equips us to make informed and constructive decisions, such as strategically discounting products or considering the temporary disabling of certain items. This dynamic combination of historical trends and live feedback empowers us to respond effectively to customer preferences, ensuring a more responsive and customer-centric decision-making process.  
 
 
 == Solution

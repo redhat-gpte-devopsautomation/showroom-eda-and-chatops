@@ -1,16 +1,16 @@
 = Solution Addressing The Challenges
-:navtitle: Admin: Connecting ChatOps
+:navtitle: 5: Admin - Connecting ChatOps
 
 :numbered:
 
 == Addressing Challenge: 
 
-As an admin, how easy it is for connecting chatops system to EDA. This will help the product manager’s to directly command from chat system to trigger a change for a specific category for. E.g discount or disable that category on online retail website.
+As an administrator, streamlining the integration of the ChatOps system with Event-Driven Architecture (EDA) proves to be a seamless process. This integration offers a significant advantage for product managers, enabling them to effortlessly issue commands directly from the chat system. This functionality empowers product managers to swiftly trigger changes for specific categories, such as applying discounts or disabling a particular category on the online retail website.
 
 
 == Solution
 
-. Login to *Automation Controller* and create *Job Template* to take an action on Smart Retail Application products based on message posted by product manager in RocketChat. Details are given below:
+. Access the Automation Controller to create a Job Template that facilitates the execution of actions on products within the Smart Retail Application. This should be triggered by messages posted by the product manager in RocketChat. The necessary details are provided below:
 
 +
 ****
@@ -27,7 +27,7 @@ As an admin, how easy it is for connecting chatops system to EDA. This will help
 * playbook =>
 ****
 
-. Login to *Event-driven Ansible* to create Rulebook Activation which will trigger Ansible Controller  *Job Template* upon submitting the feedback in Smart Retail Application, Details are given below:
+. Access Event-driven Ansible to configure Rulebook Activation, facilitating the automatic triggering of an Ansible Controller Job Template upon submitting feedback in the Smart Retail Application. Please refer to the details provided below:
 
 +
 ****
@@ -37,7 +37,7 @@ As an admin, how easy it is for connecting chatops system to EDA. This will help
 * Username => {eda_controller_admin_user}
 * Password => {eda_controller_admin_password}
 
-.. Click on Rulebook Activation and Added new rulebook as per details given below:
+.. Navigate to Rulebook Activation and proceed to add a new rulebook following the details provided below:
 +
 * Name => test
 * project =>
@@ -45,7 +45,7 @@ As an admin, how easy it is for connecting chatops system to EDA. This will help
 ****
 
 
-. Login to *OpenShift Console* to route for Event-driven Ansible rulebook activation which you have created in previous step, Details are given below.
+. Access the OpenShift Console to configure routing for the Event-driven Ansible rulebook activation created in the previous step. Refer to the details provided below:
 
 +
 ****
@@ -65,7 +65,7 @@ As an admin, how easy it is for connecting chatops system to EDA. This will help
 ****
 
 
-. Login to *RocketChat* to setup webhook for Event-driven Ansible as per details given below:
+. Access RocketChat to establish a webhook for Event-driven Ansible, following the details provided below:
 
 +
 ****
