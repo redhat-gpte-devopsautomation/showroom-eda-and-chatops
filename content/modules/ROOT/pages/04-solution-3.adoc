@@ -45,33 +45,34 @@ This allows for convenient monitoring by the product manager, facilitating timel
 [upperalpha]
 
 .. Kindly find the login details for accessing RocketChat below:
++
+TIP: You can skip the login process if you're already signed in.
+
 ... *RocketChat Url:* {rocketchat_url}
 ... *Username:* pm_clothing
 ... *Password:* {rocketchat_admin_password}
 
-.. Click to #clothing channel and observe new message which has original feedback along with other product details. 
+.. Navigate to the #clothing channel and review the new message that contains the original feedback, along with additional product details. This comprehensive information is designed to assist the product manager in monitoring the products effectively. Insights provided in the message contribute to informed decision-making and proactive actions based on customer feedback.
 ****
 
-. Login to Grafana dashboard for monitoring the historical sentiments for the product:
+. Access the Grafana dashboard to monitor historical sentiments for the product. Please log in to view and analyze sentiment trends over time.
 +
 ****
-.. Login details:
-+
-
-* Grafana URL => https://grafana-route-influxdb-project.{openshift_cluster_ingress_domain}
-* Username => admin
-* Password => {gitea_admin_password}
+.. Kindly find the login details for accessing RocketChat below:
+... *Grafana URL:* https://grafana-route-influxdb-project.{openshift_cluster_ingress_domain}
+... *Username:* admin
+... *Password:* {gitea_admin_password}
 
 .. Select from the dropdown manue.
 .. Observe the sentiments.
 ****
 
 
-. As product manager you now directly take action on the product after reading message and monitoring the sentiments by send message in the #clothing channel. 
+. As the product manager, your integral role encompasses active engagement with customer feedback and sentiment analysis. After carefully reviewing messages and closely monitoring sentiments, you hold the authority to take decisive action on the product. Leverage the insights gained to craft and send an action message in the #clothing channel, addressing specific actions, production ID, and optionally, price, based on the sentiments observed. Your proactive involvement plays a pivotal role in shaping a positive and customer-centric experience.
 
 +
 ****
-TIP: Product manager has three action update,discontinue,and continue which can take against a product.
+NOTE: Product manager has three action update,discontinue,and continue which can take against a product.
 
 .. Type update,<id of the product>,price
 .. E.g update,398222222,5
