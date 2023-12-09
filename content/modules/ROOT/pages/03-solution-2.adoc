@@ -58,7 +58,7 @@ rocketchat_user_id: {rocketchat_user_id}
 image::04_controller_job_template-1.jpg[Automation Controller, 640]
 ****
 
-< br/>
+[linespace=3, fontsize=10]
 
 . Access Event-driven Ansible to configure Rulebook Activation, facilitating the automatic triggering of an Ansible Controller Job Template upon submitting feedback in the Smart Retail Application. Please refer to the details provided below:
 +
