@@ -77,11 +77,11 @@ TIP: You can skip the login process if you're already signed in.
 * *Rulebook activation enabled?:* Enabled
 * Click *Create rulebook activation* to create rulebook
 
-
++
 .Event-driven Ansible Rulebook Activations Page
 image::03_eda_rulebook-1.jpg[Event-driven Ansible, 640]
 
-
++
 .Event-driven Ansible Create Rulebook Activation Page
 image::03_eda_rulebook-2.jpg[Event-driven Ansible, 640]
 
@@ -121,6 +121,7 @@ image::06_openshift_route-1.jpg[OpenShift, 640]
 * *Target port:* 5000 -> 5000 (TCP)
 * Click Create button to save.
 
++
 .OpenShift Route Page
 image::06_openshift_route-2.jpg[OpenShift, 600]
 
