@@ -150,13 +150,13 @@ NOTE: Please logout and re-login as admin if you're already signed in.
 .RocketChat Administration Page
 image::05_rocketchat_admin-1.jpg[RocketChat, 640]
 
-+
-TIP: If nothing appears upon the initial click, try clicking on other links and then return to the 'Integration' section to refresh and display the content.
-
 .. Navigate to the 'Integration' section, and click on the 'New Integration' button to create a webhook for outgoing messages.
 +
 .RocketChat Webhook Page
 image::05_rocketchat_webhook-1.jpg[RocketChat, 640]
+
++
+TIP: If nothing appears upon the initial click, try clicking on other links and then return to the 'Integration' section to refresh and display the content.
 
 .. Select Outgoing WebHook.
 +
