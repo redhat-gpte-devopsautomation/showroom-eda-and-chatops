@@ -156,6 +156,7 @@ image::05_rocketchat_admin-1.jpg[RocketChat, 640]
 +
 TIP: If nothing appears upon the initial click, try clicking on other links and then return to the 'Integration' section to refresh and display the content.
 
++
 .RocketChat Webhook Page
 image::05_rocketchat_webhook-1.jpg[RocketChat, 640]
 
