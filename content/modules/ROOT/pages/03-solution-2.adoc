@@ -37,20 +37,16 @@ TIP: You can skip the login process if you're already signed in.
   ** Select => OpenShift Credentials
 * Variables =>
 +
-[source,yaml]
-----
-eda_chatops_retail_db_host: globex-db.globex.svc.cluster.local
-eda_chatops_retail_db_name: globex
-eda_chatops_retail_db_password: globex
-eda_chatops_retail_db_username: globex
-rocketchat_auth_token: {rocketchat_token}
-rocketchat_url: >-
-  https://rocket-chat-rocketchat.apps.cluster-zcjhs.zcjhs.sandbox1957.opentlc.com
-rocketchat_user_id: DSZJkBEZPfGzFtjbu
-----
-
-
-  ** Select Checkbox [] Prompt on Launch 
+|===
+|eda_chatops_retail_db_host: globex-db.globex.svc.cluster.local
+|eda_chatops_retail_db_name: globex
+|eda_chatops_retail_db_password: globex
+|eda_chatops_retail_db_username: globex
+|rocketchat_auth_token: {rocketchat_token}
+|rocketchat_url: https://rocket-chat-rocketchat.apps.cluster-zcjhs.zcjhs.sandbox1957.opentlc.com
+|rocketchat_user_id: DSZJkBEZPfGzFtjbu
+|===
+* Select Checkbox [] Prompt on Launch 
 ****
 
 . Access Event-driven Ansible to configure Rulebook Activation, facilitating the automatic triggering of an Ansible Controller Job Template upon submitting feedback in the Smart Retail Application. Please refer to the details provided below:
