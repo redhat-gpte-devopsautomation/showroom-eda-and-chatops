@@ -18,24 +18,24 @@ TIP: You can skip the login process if you're already signed in.
 
 .. Kindly find the login details for accessing Automation Controller below:
 +
-* Automation Controller => {aap_controller_web_url}
-* Username => {aap_controller_admin_user}
-* Password => {aap_controller_admin_password}
+* *Automation Controller:* {aap_controller_web_url}
+* *Username:* {aap_controller_admin_user}
+* *Password:* {aap_controller_admin_password}
 ****
 
 +
 ****
 .. Navigate to Job Templates and proceed to create a new template with the following details:
 +
-* Name => chatops-action
-* Job Type => Run
-* Inventory => Demo Inventory
-* Project => event-driven-ansible-and-chatops
-* Playbook => playbooks/chatops-action.yml
-* Credentials =>
-  ** Selected Category => OpenShift or Kubernetes API Bearer Token
-  ** Select => OpenShift Credentials
-* Variables =>
+* Name: chatops-action
+* Job Type: Run
+* Inventory: Demo Inventory
+* Project: event-driven-ansible-and-chatops
+* Playbook: playbooks/chatops-action.yml
+* Credentials:
+  ** Selected Category: OpenShift or Kubernetes API Bearer Token
+  ** Select: OpenShift Credentials
+* Variables: Kindly copy and paste the provided variables into the YAML format below for ease of use and implementation.
 +
 |===
 |eda_chatops_retail_db_host: globex-db.globex.svc.cluster.local
@@ -46,7 +46,7 @@ TIP: You can skip the login process if you're already signed in.
 |rocketchat_url: https://rocket-chat-rocketchat.apps.cluster-zcjhs.zcjhs.sandbox1957.opentlc.com
 |rocketchat_user_id: DSZJkBEZPfGzFtjbu
 |===
-* Select Checkbox [] Prompt on Launch 
+* Select Checkbox: [] Prompt on Launch 
 ****
 
 . Access Event-driven Ansible to configure Rulebook Activation, facilitating the automatic triggering of an Ansible Controller Job Template upon submitting feedback in the Smart Retail Application. Please refer to the details provided below:
