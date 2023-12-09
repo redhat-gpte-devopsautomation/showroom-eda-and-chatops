@@ -58,10 +58,11 @@ image::04_controller_job_template-1.jpg[Automation Controller, 640]
 
 +
 ****
-TIP: You can skip the login process if you're already signed in.
 
 .. Kindly find the login details for accessing Event-driven Ansible below:
 +
+TIP: You can skip the login process if you're already signed in.
+
 * *Event-driven Ansible:* {eda_controller_web_url}
 * *Username:* {eda_controller_admin_user}
 * *Password:* {eda_controller_admin_password}
@@ -135,11 +136,12 @@ image::06_openshift_route-3.jpg[OpenShift, 640]
 
 +
 ****
-NOTE: Please logout and re-login as admin if you're already signed in.
 
 .. Kindly find the login details for accessing RocketChat below:
 
 +
+NOTE: Please logout and re-login as admin if you're already signed in.
+
 * *RocketChat Url:* {rocketchat_url}
 * *Username:* admin
 * *Password:* {rocketchat_admin_password}
@@ -152,11 +154,12 @@ image::05_rocketchat_admin-1.jpg[RocketChat, 640]
 
 .. Navigate to the 'Integration' section, and click on the 'New Integration' button to create a webhook for outgoing messages.
 +
+TIP: If nothing appears upon the initial click, try clicking on other links and then return to the 'Integration' section to refresh and display the content.
+
 .RocketChat Webhook Page
 image::05_rocketchat_webhook-1.jpg[RocketChat, 640]
 
 +
-TIP: If nothing appears upon the initial click, try clicking on other links and then return to the 'Integration' section to refresh and display the content.
 
 .. Select Outgoing WebHook.
 +
