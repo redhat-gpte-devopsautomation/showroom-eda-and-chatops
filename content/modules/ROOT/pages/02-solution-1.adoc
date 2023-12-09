@@ -14,9 +14,9 @@ The Product Manager seamlessly integrates customer feedback from the live online
 +
 ****
 .. Kindly find the login details for accessing Smart Retail Application below:
-* Web Url => https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}
-* Username => asilva
-* Password => openshift
+* *Web Url:* https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}
+* *Username:* asilva
+* *Password:* openshift
 
 
 .Smart Retails Main Page
@@ -55,9 +55,9 @@ image::01_coolstore_feedback-3.jpg[Review, 640]
 ****
 .. Kindly find the login details for accessing Event-driven Ansible below:
 +
-* Event-driven Ansible => {eda_controller_web_url}
-* Username => {eda_controller_admin_user}
-* Password => {eda_controller_admin_password}
+* *Event-driven Ansible:* {eda_controller_web_url}
+* *Username:* {eda_controller_admin_user}
+* *Password:* {eda_controller_admin_password}
 
 .Event-driven Ansible Login Page
 image::03_eda_login.jpg[Event-driven Ansible, 400]
@@ -86,9 +86,9 @@ image::03_eda_favourable_trigger_history-2.jpg[Event-driven Ansible, 640]
 ****
 .. Kindly find the login details for accessing Automation Controller below:
 +
-* Automation Controller => {aap_controller_web_url}
-* Username => {aap_controller_admin_user}
-* Password => {aap_controller_admin_password}
+* *Automation Controller:* {aap_controller_web_url}
+* *Username:* {aap_controller_admin_user}
+* *Password:* {aap_controller_admin_password}
 
 
 .Automation Controller Login Page
@@ -119,9 +119,9 @@ This allows for convenient monitoring by the product manager, facilitating timel
 +
 ****
 .. Kindly find the login details for accessing RocketChat below:
-* RocketChat Url => {rocketchat_url}
-* Username => pm_clothing
-* Password => {rocketchat_admin_password}
+* *RocketChat Url:* {rocketchat_url}
+* *Username:* pm_clothing
+* *Password:* {rocketchat_admin_password}
 
 
 .RocketChat Login page
@@ -153,9 +153,9 @@ You may trigger and observe the whole process for utensils product, Following ar
 ****
 .. Login details: 
 +
-* RocketChat Url => {rocketchat_url}
-* Username => pm_utensils
-* Password => {rocketchat_admin_password}
+* *RocketChat Url:* {rocketchat_url}
+* *Username:* pm_utensils
+* *Password:* {rocketchat_admin_password}
 
-.. Click on #utensils chatroom.
+.. Click on `#utensils` chatroom.
 ****
