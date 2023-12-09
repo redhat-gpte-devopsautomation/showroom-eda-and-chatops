@@ -86,7 +86,7 @@ TIP: You can skip the login process if you're already signed in.
 .Event-driven Ansible Rulebook Activations Page
 image::03_eda_rulebook-1.jpg[Event-driven Ansible, 640]
 
-+
+
 .Event-driven Ansible Create Rulebook Activation Page
 image::03_eda_rulebook-2.jpg[Event-driven Ansible, 640]
 
