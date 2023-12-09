@@ -8,6 +8,18 @@ As an administrator, streamlining the integration of the ChatOps system with Eve
 
 
 == Solution
+. Click vscode
++
+****
+[upperalpha]
+.. Kindly find the login details for accessing Visual Studio Code below:
+... *Vscode Console Url:* {codeserver_url}
+... *Password:* {codeserver_password}
++
+.Vscode Login Page
+image::07_vscode_login.jpg[Vscode, 640]
+
+****
 
 . Access the Automation Controller to create a Job Template that facilitates the execution of actions on products within the Smart Retail Application. This should be triggered by messages posted by the product manager in RocketChat. The necessary details are provided below:
 
@@ -58,7 +70,6 @@ rocketchat_user_id: {rocketchat_user_id}
 image::04_controller_job_template-1.jpg[Automation Controller, 640]
 ****
 
-[linespace=3, fontsize=10]
 
 . Access Event-driven Ansible to configure Rulebook Activation, facilitating the automatic triggering of an Ansible Controller Job Template upon submitting feedback in the Smart Retail Application. Please refer to the details provided below:
 +
