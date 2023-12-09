@@ -156,7 +156,7 @@ Feel free to initiate and monitor the entire process for the utensils product. B
 
 .. Kindly find the login details for accessing RocketChat below:
 +
-NOTE: Please logout and re-login as pm_utensils if you're already signed in.
+IMPORTANT: Please logout and re-login as pm_utensils if you're already signed in.
 
 ... *RocketChat Url:* {rocketchat_url}
 ... *Username:* pm_utensils
