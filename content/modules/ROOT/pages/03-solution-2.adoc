@@ -104,7 +104,7 @@ TIP: You can skip the login process if you're already signed in.
 
 +
 ****
-TIP: You can skip the login process if you're already signed in.
+NOTE: Please logout and re-login as admin if you're already signed in.
 
 .. Kindly find the login details for accessing RocketChat below:
 
