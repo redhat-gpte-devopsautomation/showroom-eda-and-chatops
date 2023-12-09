@@ -15,7 +15,7 @@ As an administrator, streamlining the integration of the ChatOps system with Eve
 ****
 
 
-.. Kindly find the login details for accessing Automation Controller below:
+. Kindly find the login details for accessing Automation Controller below:
 +
 TIP: You can skip the login process if you're already signed in.
 
@@ -23,7 +23,7 @@ TIP: You can skip the login process if you're already signed in.
 * *Username:* {aap_controller_admin_user}
 * *Password:* {aap_controller_admin_password}
 
-.. Navigate to Job Templates and proceed to create a new template with the following details:
+. Navigate to Job Templates and proceed to create a new template with the following details:
 +
 * *Name:* chatops-action
 * *Job Type:* Run
