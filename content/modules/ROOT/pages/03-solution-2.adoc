@@ -22,10 +22,7 @@ TIP: You can skip the login process if you're already signed in.
 * *Automation Controller:* {aap_controller_web_url}
 * *Username:* {aap_controller_admin_user}
 * *Password:* {aap_controller_admin_password}
-****
 
-+
-****
 .. Navigate to Job Templates and proceed to create a new template with the following details:
 +
 * *Name:* chatops-action
@@ -68,10 +65,7 @@ TIP: You can skip the login process if you're already signed in.
 * *Event-driven Ansible:* {eda_controller_web_url}
 * *Username:* {eda_controller_admin_user}
 * *Password:* {eda_controller_admin_password}
-****
 
-+
-****
 .. Navigate to Rulebook Activation and proceed to add a new rulebook following the details provided below:
 +
 * *Name:* rocketchat-trigger
@@ -144,14 +138,18 @@ NOTE: Please logout and re-login as admin if you're already signed in.
 * *RocketChat Url:* {rocketchat_url}
 * *Username:* admin
 * *Password:* {rocketchat_admin_password}
-****
+
+.. Navigate to administration.
 
 +
-****
-
-.. Navigate to administration option and then click integration
+.RocketChat Administration Page
+image::05_rocketchat_admin-1.jpg[RocketChat, 640]
 
 TIP | Click on other links 02then back to integration if nothing get displayed upon first click).
+****
+
+****
+
 
 .. Click on New Integration then click Outgoing Webhook.
 .. Select Message sent from the dropdown list  for the Event Trigger.
