@@ -8,7 +8,7 @@ As an administrator, streamlining the integration of the ChatOps system with Eve
 
 
 == Solution
-. Click vscode
+. Open Visual Studio Code to explore and gain a better understanding of the Ansible playbooks and Event-driven Ansible rulebooks utilized in the 'Solution Addressing The Challenges'.
 +
 ****
 [upperalpha]
@@ -16,9 +16,19 @@ As an administrator, streamlining the integration of the ChatOps system with Eve
 ... *Vscode Console Url:* {codeserver_url}
 ... *Password:* {codeserver_password}
 +
-.Vscode Login Page
-image::07_vscode_login.jpg[Vscode, 640]
+.VScode Login Page
+image::07_vscode_login.jpg[VScode, 640]
 
+.. Navigate to the 'event-driven-ansible-and-chatops' directory, then expand the 'playbooks' directory. Click on 'chatops-action.yml' to explore the playbook, which will be used to create a job template in the Automation Controller. The template will be triggered by Event-driven Ansible, executing actions on a product when messages are posted by the product manager in RocketChat.
++
+.VScode Dashboard Page
+image::07_vscode_playbook-1.jpg[VScode, 640]
+
+
+.. Head to the 'event-driven-ansible-and-chatops' directory, then expand the 'rulebooks' directory. Click on 'rocketchat-trigger.yml' to delve into the rulebook. This rulebook will be instrumental in creating a Rulebook activation in Event-driven Ansible. When messages are posted by the product manager in RocketChat, this activation will, in turn, trigger the Automation Controller job template.
++
+.VScode Dashboard Page
+image::07_vscode_rulebook-1.jpg[VScode, 640]
 ****
 
 . Access the Automation Controller to create a Job Template that facilitates the execution of actions on products within the Smart Retail Application. This should be triggered by messages posted by the product manager in RocketChat. The necessary details are provided below:
