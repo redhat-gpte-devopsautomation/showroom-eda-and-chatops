@@ -103,6 +103,12 @@ image::03_eda_rulebook-2.jpg[Event-driven Ansible, 640]
 * *Username:* {openshift_cluster_admin_username}
 * *Password:* {openshift_cluster_admin_password}
 
+.OpenShift Console Login Page
+image::05_openshift_login-1.jpg[OpenShift, 640]
+
+.OpenShift Console Login Page
+image::05_openshift_login-2.jpg[OpenShift, 640]
+
 .. Select *aap* project.
 .. Navigate to route and create new route as per details give below:
 +
