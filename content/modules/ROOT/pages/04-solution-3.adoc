@@ -40,7 +40,7 @@ TIP: You can skip the login process if you're already signed in.
 ... *Password:* {gitea_admin_password}
 +
 .Grafana Login page
-image::08_grafana_login.jpg[Grafana, 640]
+image::08_grafana_login.jpg[Grafana, 400]
 
 
 .. Select from the dropdown manue.
