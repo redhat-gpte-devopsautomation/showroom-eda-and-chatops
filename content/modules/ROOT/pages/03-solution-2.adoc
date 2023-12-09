@@ -105,7 +105,7 @@ image::03_eda_rulebook-2.jpg[Event-driven Ansible, 640]
 
 +
 .OpenShift Console Login Page
-image::05_openshift_login-1.jpg[OpenShift, 600]
+image::05_openshift_login-1.jpg[OpenShift, 560]
 
 +
 .OpenShift Console Login Page
