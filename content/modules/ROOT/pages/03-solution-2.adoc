@@ -62,20 +62,18 @@ image::04_controller_job_template-1.jpg[Automation Controller, 640]
 .. Kindly find the login details for accessing Event-driven Ansible below:
 +
 TIP: You can skip the login process if you're already signed in.
-
-* *Event-driven Ansible:* {eda_controller_web_url}
-* *Username:* {eda_controller_admin_user}
-* *Password:* {eda_controller_admin_password}
+... *Event-driven Ansible:* {eda_controller_web_url}
+... *Username:* {eda_controller_admin_user}
+... *Password:* {eda_controller_admin_password}
 
 .. Navigate to Rulebook Activation and proceed to add a new rulebook following the details provided below:
-+
-* *Name:* rocketchat-trigger
-* *project:* AI Based Smart Retail
-* *Rulebook:* rocketchat-trigger.yml
-* *Decision environment:* de-kafka-scram
-* *Restart policy:* On failure
-* *Rulebook activation enabled?:* Enabled
-* Click *Create rulebook activation* to create rulebook
+... *Name:* rocketchat-trigger
+... *project:* AI Based Smart Retail
+... *Rulebook:* rocketchat-trigger.yml
+... *Decision environment:* de-kafka-scram
+... *Restart policy:* On failure
+... *Rulebook activation enabled?:* Enabled
+... Click *Create rulebook activation* to create rulebook
 
 +
 .Event-driven Ansible Rulebook Activations Page
@@ -84,7 +82,6 @@ image::03_eda_rulebook-1.jpg[Event-driven Ansible, 640]
 +
 .Event-driven Ansible Create Rulebook Activation Page
 image::03_eda_rulebook-2.jpg[Event-driven Ansible, 640]
-
 ****
 
 
@@ -95,10 +92,9 @@ image::03_eda_rulebook-2.jpg[Event-driven Ansible, 640]
 [upperalpha]
 
 .. Kindly find the login details for accessing Openshift Console below:
-+
-* *Console URL:* {openshift_console_url}
-* *Username:* {openshift_cluster_admin_username}
-* *Password:* {openshift_cluster_admin_password}
+... *Console URL:* {openshift_console_url}
+... *Username:* {openshift_cluster_admin_username}
+... *Password:* {openshift_cluster_admin_password}
 
 +
 .OpenShift Console Login Page
@@ -116,12 +112,10 @@ image::06_openshift_login-2.jpg[OpenShift, 600]
 image::06_openshift_route-1.jpg[OpenShift, 640]
 
 .. To set up an Event-driven Ansible route for the 'rocketchat-trigger' rulebook, follow the details provided below:
-
-+
-* *Name:* eda-trigger
-* *Service:* activation-job-X-X-5000
-* *Target port:* 5000 -> 5000 (TCP)
-* Click Create button to save.
+... *Name:* eda-trigger
+... *Service:* activation-job-X-X-5000
+... *Target port:* 5000 -> 5000 (TCP)
+... Click Create button to save.
 
 +
 .OpenShift Route Page
@@ -131,27 +125,25 @@ image::06_openshift_route-2.jpg[OpenShift, 600]
 +
 .OpenShift Route Page
 image::06_openshift_route-3.jpg[OpenShift, 640]
-
 ****
 
 
-. Access RocketChat to establish a webhook for Event-driven Ansible, following the details provided below:
 
+
+. Access RocketChat to establish a webhook for Event-driven Ansible, following the details provided below:
 +
 ****
 [upperalpha]
 
 .. Kindly find the login details for accessing RocketChat below:
-
 +
 NOTE: Please logout and re-login as admin if you're already signed in.
 
-* *RocketChat Url:* {rocketchat_url}
-* *Username:* admin
-* *Password:* {rocketchat_admin_password}
+... *RocketChat Url:* {rocketchat_url}
+... *Username:* admin
+... *Password:* {rocketchat_admin_password}
 
 .. Navigate to administration.
-
 +
 .RocketChat Administration Page
 image::05_rocketchat_admin-1.jpg[RocketChat, 640]
@@ -177,15 +169,14 @@ image::05_rocketchat_webhook-3.jpg[RocketChat, 640]
 
 
 .. Please provide the following details:
-+
-* *Name (optional):* Event-driven Ansible and ChatOps
-* *Channel:* #clothing,#utensils
-* *Trigger Words:* update,continue,discontinue
-* *URLs:* <Paste *eda-trigger* route created in openshift>
-* *Impersonate User:* True
-* *Post as:* admin
-* Keep the remaining settings as default.
-* Save your changes by clicking on the 'Save Changes' button in the upper right corner.
+... *Name (optional):* Event-driven Ansible and ChatOps
+... *Channel:* #clothing,#utensils
+... *Trigger Words:* update,continue,discontinue
+... *URLs:* <Paste *eda-trigger* route created in openshift>
+... *Impersonate User:* True
+... *Post as:* admin
+... Keep the remaining settings as default.
+... Save your changes by clicking on the 'Save Changes' button in the upper right corner.
 
 +
 .RocketChat Webhook Page
