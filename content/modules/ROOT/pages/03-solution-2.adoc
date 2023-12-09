@@ -165,7 +165,7 @@ image::06_openshift_route-3.jpg[OpenShift, 640]
 
 .. Kindly find the login details for accessing RocketChat below:
 +
-NOTE: Please logout and re-login as admin if you're already signed in.
+IMPORTANT: Please logout and re-login as admin if you're already signed in.
 
 ... *RocketChat Url:* {rocketchat_url}
 ... *Username:* admin
