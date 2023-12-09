@@ -16,15 +16,15 @@ The Product Manager seamlessly integrates customer feedback from the live online
 [upperalpha]
 
 .. Kindly find the login details for accessing Smart Retail Application below:
-* *Web Url:* https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}
-* *Username:* asilva
-* *Password:* openshift
+... *Web Url:* https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}
+... *Username:* asilva
+... *Password:* openshift
 
-
++
 .Smart Retails Main Page
 image::01_coolstore_login.jpg[login, 640]
 
-
++
 .Smart Retails Login Page
 image::01_coolstore_login_creds.jpg[login, 640]
 ****
