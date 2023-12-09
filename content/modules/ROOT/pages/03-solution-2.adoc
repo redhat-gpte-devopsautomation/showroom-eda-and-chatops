@@ -118,7 +118,7 @@ image::06_openshift_login-2.jpg[OpenShift, 600]
 .OpenShift Route Page
 image::06_openshift_route-1.jpg[OpenShift, 640]
 
-. To set up an Event-driven Ansible route for the 'rocketchat-trigger' rulebook, follow the details provided below:
+.. To set up an Event-driven Ansible route for the 'rocketchat-trigger' rulebook, follow the details provided below:
 
 +
 * *Name:* eda-trigger
