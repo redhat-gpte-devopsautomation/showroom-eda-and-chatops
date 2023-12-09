@@ -121,7 +121,12 @@ image::06_openshift_route-1.jpg[OpenShift, 640]
 * Click Create button to save.
 
 .OpenShift Route Page
-image::06_openshift_route-2.jpg[OpenShift, 640]
+image::06_openshift_route-2.jpg[OpenShift, 600]
+
+.. Copy the 'eda-trigger' route, which will serve as the webhook URL for use in RocketChat.
++
+.OpenShift Route Page
+image::06_openshift_route-3.jpg[OpenShift, 640]
 
 ****
 
@@ -145,10 +150,7 @@ NOTE: Please logout and re-login as admin if you're already signed in.
 .RocketChat Administration Page
 image::05_rocketchat_admin-1.jpg[RocketChat, 640]
 
-****
 
-+
-****
 TIP: If nothing appears upon the initial click, try clicking on other links and then return to the 'Integration' section to refresh and display the content.
 
 .. Navigate to the 'Integration' section, and click on the 'New Integration' button to create a webhook for outgoing messages.
@@ -166,19 +168,20 @@ image::05_rocketchat_webhook-2.jpg[RocketChat, 640]
 .RocketChat Webhook Page
 image::05_rocketchat_webhook-3.jpg[RocketChat, 640]
 
-TIP: If nothing appears upon the initial click, try clicking on other links and then return to the 'Integration' section to refresh and display the content.
 
-.. Fill the option as follows:
+.. Please provide the following details:
 +
-* Name => Event-driven Ansible and ChatOps
-* Channel => #clothing,#utensils
-* Trigger Words => update,continue,discontinue
-* Urls => Paste the eda-route link here
-* Impersonate User => True
-* Post as => admin
+* *Name (optional):* Event-driven Ansible and ChatOps
+* *Channel:* #clothing,#utensils
+* *Trigger Words:* update,continue,discontinue
+* *URLs:* <Paste *eda-trigger* route created in openshift>
+* *Impersonate User:* True
+* *Post as:* admin
+* Keep the remaining settings as default.
+* Save your changes by clicking on the 'Save Changes' button in the upper right corner.
 
-.. Leave the rest as default
-.. Click on Save Changes from above right corner
-
++
+.RocketChat Webhook Page
+image::05_rocketchat_webhook-4.jpg[RocketChat, 640]
 ****
 
