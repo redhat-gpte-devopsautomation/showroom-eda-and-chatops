@@ -38,8 +38,16 @@ TIP: You can skip the login process if you're already signed in.
 ... *Grafana URL:* https://grafana-route-influxdb-project.{openshift_cluster_ingress_domain}
 ... *Username:* admin
 ... *Password:* {gitea_admin_password}
++
+.Grafana Login page
+image::08_grafana_login.jpg[Grafana, 640]
+
 
 .. Select from the dropdown manue.
++
+.Grafana Dashboard page
+image::08_grafana_dashboard-1.jpg[Grafana, 640]
+
 .. Observe the sentiments.
 ****
 
