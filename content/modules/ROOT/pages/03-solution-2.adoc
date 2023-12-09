@@ -145,14 +145,28 @@ NOTE: Please logout and re-login as admin if you're already signed in.
 .RocketChat Administration Page
 image::05_rocketchat_admin-1.jpg[RocketChat, 640]
 
-TIP | Click on other links 02then back to integration if nothing get displayed upon first click).
 ****
 
++
 ****
+TIP | If nothing appears upon the initial click, try clicking on other links and then return to the 'Integration' section to refresh and display the content.
+
+.. Navigate to the 'Integration' section, and click on the 'New Integration' button to create a webhook for outgoing messages.
++
+.RocketChat Webhook Page
+image::05_rocketchat_webhook-1.jpg[RocketChat, 640]
+
+.. Select Outgoing WebHook.
++
+.RocketChat Webhook Page
+image::05_rocketchat_webhook-2.jpg[RocketChat, 640]
+
+.. Select Message Sent from drop down list.
++
+.RocketChat Webhook Page
+image::05_rocketchat_webhook-3.jpg[RocketChat, 640]
 
 
-.. Click on New Integration then click Outgoing Webhook.
-.. Select Message sent from the dropdown list  for the Event Trigger.
 .. Fill the option as follows:
 +
 * Name => Event-driven Ansible and ChatOps
