@@ -57,8 +57,8 @@ rocketchat_user_id: {rocketchat_user_id}
 .Automation Controller Job Template Page
 image::04_controller_job_template-1.jpg[Automation Controller, 640]
 ****
-:hardbreaks-option:
 
+<<<
 
 . Access Event-driven Ansible to configure Rulebook Activation, facilitating the automatic triggering of an Ansible Controller Job Template upon submitting feedback in the Smart Retail Application. Please refer to the details provided below:
 +
@@ -68,6 +68,7 @@ image::04_controller_job_template-1.jpg[Automation Controller, 640]
 .. Kindly find the login details for accessing Event-driven Ansible below:
 +
 TIP: You can skip the login process if you're already signed in.
+
 ... *Event-driven Ansible:* {eda_controller_web_url}
 ... *Username:* {eda_controller_admin_user}
 ... *Password:* {eda_controller_admin_password}
