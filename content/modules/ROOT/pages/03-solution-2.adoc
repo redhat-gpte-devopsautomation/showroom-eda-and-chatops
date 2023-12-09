@@ -61,12 +61,17 @@ image::04_controller_job_template-1.jpg[Automation Controller, 640]
 
 +
 ****
-.. Login details:
-+
-* Event-driven Ansible => {eda_controller_web_url}
-* Username => {eda_controller_admin_user}
-* Password => {eda_controller_admin_password}
+TIP: You can skip the login process if you're already signed in.
 
+.. Kindly find the login details for accessing Event-driven Ansible below:
++
+* *Event-driven Ansible:* {eda_controller_web_url}
+* *Username:* {eda_controller_admin_user}
+* *Password:* {eda_controller_admin_password}
+****
+
++
+****
 .. Navigate to Rulebook Activation and proceed to add a new rulebook following the details provided below:
 +
 * Name => test
@@ -79,11 +84,11 @@ image::04_controller_job_template-1.jpg[Automation Controller, 640]
 
 +
 ****
-.. Login details:
+.. Kindly find the login details for accessing Openshift Console below:
 +
-* Console URL => {openshift_console_url}
-* Username => {openshift_cluster_admin_username}
-* Password => {openshift_cluster_admin_password}
+* *Console URL:* {openshift_console_url}
+* *Username:* {openshift_cluster_admin_username}
+* *Password:* {openshift_cluster_admin_password}
 
 .. Select *aap* project.
 .. Navigate to route and create new route as per details give below:
@@ -99,11 +104,18 @@ image::04_controller_job_template-1.jpg[Automation Controller, 640]
 
 +
 ****
-.. Login details-
+TIP: You can skip the login process if you're already signed in.
+
+.. Kindly find the login details for accessing RocketChat below:
+
 +
-* RocketChat Url => {rocketchat_url}
-* Username => admin
-* Password => {rocketchat_admin_password}
+* *RocketChat Url:* {rocketchat_url}
+* *Username:* admin
+* *Password:* {rocketchat_admin_password}
+****
+
++
+****
 
 .. Navigate to administration option and then click integration
 
