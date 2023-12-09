@@ -13,6 +13,8 @@ The Product Manager seamlessly integrates customer feedback from the live online
 
 +
 ****
+[upperalpha]
+
 .. Kindly find the login details for accessing Smart Retail Application below:
 * *Web Url:* https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}
 * *Username:* asilva
@@ -32,6 +34,8 @@ image::01_coolstore_login_creds.jpg[login, 640]
 
 +
 ****
+[upperalpha]
+
 .. Click on `Coolstore` tab from the top.
 +
 .Smart Retails Home Page
@@ -53,6 +57,8 @@ image::01_coolstore_feedback-3.jpg[Review, 640]
 
 +
 ****
+[upperalpha]
+
 .. Kindly find the login details for accessing Event-driven Ansible below:
 +
 * *Event-driven Ansible:* {eda_controller_web_url}
@@ -84,6 +90,8 @@ image::03_eda_favourable_trigger_history-2.jpg[Event-driven Ansible, 640]
 
 +
 ****
+[upperalpha]
+
 .. Kindly find the login details for accessing Automation Controller below:
 +
 * *Automation Controller:* {aap_controller_web_url}
@@ -118,6 +126,8 @@ This allows for convenient monitoring by the product manager, facilitating timel
 
 +
 ****
+[upperalpha]
+
 .. Kindly find the login details for accessing RocketChat below:
 * *RocketChat Url:* {rocketchat_url}
 * *Username:* pm_clothing
@@ -142,6 +152,8 @@ You may trigger and observe the whole process for utensils product, Following ar
 
 +
 ****
+[upperalpha]
+
 .. Click on `Coolstore` tab from the top.
 .. Select utensils
 .. Type something as feedback in the box and submit.
@@ -151,6 +163,8 @@ You may trigger and observe the whole process for utensils product, Following ar
 
 +
 ****
+[upperalpha]
+
 .. Login details: 
 +
 * *RocketChat Url:* {rocketchat_url}

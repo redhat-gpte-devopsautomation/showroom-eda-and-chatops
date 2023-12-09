@@ -13,7 +13,6 @@ As an administrator, streamlining the integration of the ChatOps system with Eve
 
 +
 ****
-
 [upperalpha]
 .. Kindly find the login details for accessing Automation Controller below:
 +
@@ -58,6 +57,7 @@ image::04_controller_job_template-1.jpg[Automation Controller, 640]
 
 +
 ****
+[upperalpha]
 
 .. Kindly find the login details for accessing Event-driven Ansible below:
 +
@@ -92,6 +92,8 @@ image::03_eda_rulebook-2.jpg[Event-driven Ansible, 640]
 
 +
 ****
+[upperalpha]
+
 .. Kindly find the login details for accessing Openshift Console below:
 +
 * *Console URL:* {openshift_console_url}
@@ -137,6 +139,7 @@ image::06_openshift_route-3.jpg[OpenShift, 640]
 
 +
 ****
+[upperalpha]
 
 .. Kindly find the login details for accessing RocketChat below:
 
