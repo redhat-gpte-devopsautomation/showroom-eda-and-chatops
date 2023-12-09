@@ -4,7 +4,7 @@
 
 == Addressing Challenge: 
 
-As an administrator, streamlining the integration of the ChatOps system with Event-Driven Architecture (EDA) proves to be a seamless process. This integration offers a significant advantage for product managers, enabling them to effortlessly issue commands directly from the chat system. This functionality empowers product managers to swiftly trigger changes for specific categories, such as applying discounts or disabling a particular category on the online retail website.
+As an administrator, streamlining the integration of the ChatOps system with Event-Driven Ansible Architecture proves to be a seamless process. This integration offers a significant advantage for product managers, enabling them to effortlessly issue commands directly from the chat system. This functionality empowers product managers to swiftly trigger changes for specific categories, such as applying discounts or disabling a particular category on the online retail website.
 
 
 == Solution
