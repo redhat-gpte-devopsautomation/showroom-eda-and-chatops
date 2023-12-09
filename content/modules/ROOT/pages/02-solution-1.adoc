@@ -144,29 +144,24 @@ image::05_rocketchat_login-2.jpg[Rocketchat, 640]
 
 == Lab Challenge (Optional)
 
-You may trigger and observe the whole process for utensils product, Following are the details required to monitor utensils product. 
+Feel free to initiate and monitor the entire process for the utensils product. Below are the necessary details to ensure a smooth and comprehensive observation:
 
-. You can provide feedback for utensils product as per details given below:
+. Re-visit the Smart Retail application console, select any utensils product, and share your thoughts, whether positive or constructive, about the product.
 
-+
-****
-[upperalpha]
-
-.. Click on `Coolstore` tab from the top.
-.. Select utensils
-.. Type something as feedback in the box and submit.
-****
-
-. *RocketChat* login details:
+. Access the RocketChat monitoring system to view the latest message posted by the Automation Controller.
 
 +
 ****
 [upperalpha]
 
-.. Login details: 
+.. Kindly find the login details for accessing RocketChat below:
++
+NOTE: Please logout and re-login as pm_utensils if you're already signed in.
+
 ... *RocketChat Url:* {rocketchat_url}
 ... *Username:* pm_utensils
 ... *Password:* {rocketchat_admin_password}
 
-.. Click on `#utensils` chatroom.
+.. Navigate to the #utensils channel and review the new message.
+
 ****
