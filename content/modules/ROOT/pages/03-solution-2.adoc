@@ -103,11 +103,13 @@ image::03_eda_rulebook-2.jpg[Event-driven Ansible, 640]
 * *Username:* {openshift_cluster_admin_username}
 * *Password:* {openshift_cluster_admin_password}
 
++
 .OpenShift Console Login Page
-image::05_openshift_login-1.jpg[OpenShift, 640]
+image::05_openshift_login-1.jpg[OpenShift, 600]
 
++
 .OpenShift Console Login Page
-image::05_openshift_login-2.jpg[OpenShift, 640]
+image::05_openshift_login-2.jpg[OpenShift, 600]
 
 
 .. Navigate to the 'Networking' section, select 'Route,' change the project to 'aap,' and then click on the 'Create Route' button to configure the Event-driven Ansible route.
