@@ -82,7 +82,7 @@ TIP: You can skip the login process if you're already signed in.
 * *Rulebook activation enabled?:* Enabled
 * Click *Create rulebook activation* to create rulebook
 
-+
+
 .Event-driven Ansible Rulebook Activations Page
 image::03_eda_rulebook-1.jpg[Event-driven Ansible, 640]
 
