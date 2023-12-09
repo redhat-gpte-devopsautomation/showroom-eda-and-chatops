@@ -2,7 +2,7 @@
 :navtitle: 5: Admin - Connecting ChatOps
 
 :numbered:
-
+:rocketchat_token:  gWa8hxUS2qQXsnvaRwstmoRgDpdKVBbGfZ9BPUyDhmC
 == Addressing Challenge: 
 
 As an administrator, streamlining the integration of the ChatOps system with Event-Driven Architecture (EDA) proves to be a seamless process. This integration offers a significant advantage for product managers, enabling them to effortlessly issue commands directly from the chat system. This functionality empowers product managers to swiftly trigger changes for specific categories, such as applying discounts or disabling a particular category on the online retail website.
@@ -14,17 +14,43 @@ As an administrator, streamlining the integration of the ChatOps system with Eve
 
 +
 ****
-.. Login details:
+TIP: You can skip the login process if you're already signed in.
 
+.. Kindly find the login details for accessing Automation Controller below:
 +
 * Automation Controller => {aap_controller_web_url}
 * Username => {aap_controller_admin_user}
 * Password => {aap_controller_admin_password}
+****
 
-.. Click on *Job Templates* abd create new job template as per details give below:
 +
-* Name => test
-* playbook =>
+****
+.. Navigate to Job Templates and proceed to create a new template with the following details:
++
+* Name => chatops-action
+* Job Type => Run
+* Inventory => Demo Inventory
+* Project => event-driven-ansible-and-chatops
+* Playbook => playbooks/chatops-action.yml
+* Credentials =>
+  ** Selected Category => OpenShift or Kubernetes API Bearer Token
+  ** Select => OpenShift Credentials
+* Variables =>
++
+[source,yaml]
+----
+eda_chatops_retail_db_host: globex-db.globex.svc.cluster.local
+eda_chatops_retail_db_name: globex
+eda_chatops_retail_db_password: globex
+eda_chatops_retail_db_username: globex
+rocketchat_auth_token: {rocketchat_token}
+rocketchat_url: >-
+  https://rocket-chat-rocketchat.apps.cluster-zcjhs.zcjhs.sandbox1957.opentlc.com
+rocketchat_user_id: DSZJkBEZPfGzFtjbu
+----
+
+
+  ** Select Checkbox [] Prompt on Launch 
 ****
 
 . Access Event-driven Ansible to configure Rulebook Activation, facilitating the automatic triggering of an Ansible Controller Job Template upon submitting feedback in the Smart Retail Application. Please refer to the details provided below:
