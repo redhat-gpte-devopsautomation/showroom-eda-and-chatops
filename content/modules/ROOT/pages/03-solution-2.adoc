@@ -105,25 +105,30 @@ image::03_eda_rulebook-2.jpg[Event-driven Ansible, 640]
 
 +
 .OpenShift Console Login Page
-image::05_openshift_login-1.jpg[OpenShift, 560]
+image::06_openshift_login-1.jpg[OpenShift, 560]
 
 +
 .OpenShift Console Login Page
-image::05_openshift_login-2.jpg[OpenShift, 600]
+image::06_openshift_login-2.jpg[OpenShift, 600]
 
 
 .. Navigate to the 'Networking' section, select 'Route,' change the project to 'aap,' and then click on the 'Create Route' button to configure the Event-driven Ansible route.
 
 +
-.OpenShift Console Login Page
-image::05_openshift_route-1.jpg[OpenShift, 640]
+.OpenShift Route Page
+image::06_openshift_route-1.jpg[OpenShift, 640]
 
-. 
+. To set up an Event-driven Ansible route for the 'rocketchat-trigger' rulebook, follow the details provided below:
+
 +
+* *Name:* eda-trigger
+* *Service:* activation-job-X-X-5000
+* *Target port:* 5000 -> 5000 (TCP)
+* Click Create button to save.
 
-* Name => test
-* project =>
-* playbook =>
+.OpenShift Route Page
+image::06_openshift_route-2.jpg[OpenShift, 640]
+
 ****
 
 
