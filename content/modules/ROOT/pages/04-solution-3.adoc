@@ -46,7 +46,7 @@ This allows for convenient monitoring by the product manager, facilitating timel
 
 .. Kindly find the login details for accessing RocketChat below:
 +
-TIP: You can skip the login process if you're already signed in.
+IMPORTANT: Kindly log out and log back in as pm_clothing if you are currently signed in. This will ensure that you have the appropriate access and privileges for the next steps
 
 ... *RocketChat Url:* {rocketchat_url}
 ... *Username:* pm_clothing
