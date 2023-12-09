@@ -13,9 +13,11 @@ As an administrator, streamlining the integration of the ChatOps system with Eve
 
 +
 ****
-TIP: You can skip the login process if you're already signed in.
+
 
 .. Kindly find the login details for accessing Automation Controller below:
++
+TIP: You can skip the login process if you're already signed in.
 +
 * *Automation Controller:* {aap_controller_web_url}
 * *Username:* {aap_controller_admin_user}
