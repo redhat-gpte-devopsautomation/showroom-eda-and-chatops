@@ -120,6 +120,7 @@ continue,ProductID
 ----
 
 Replace ProductID with the product identifier and NewPrice with the updated price for the product
+
 These commands enable the Product Manager to efficiently and directly take actions on products based on the insights gathered from the ChatOps system.
 
 ====
