@@ -8,6 +8,8 @@
 * xref:02-solution-1.adoc[]
 * xref:03-solution-2.adoc[]
 * xref:04-solution-3.adoc[]
+* xref:05-challenge.adoc[]
+* xref:06-review.adoc[]
 
 ._Support_
 * _rhdp_help@redhat.com_

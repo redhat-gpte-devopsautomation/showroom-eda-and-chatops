@@ -1,0 +1,11 @@
+= Review
+:navtitle: 6: Review
+:numbered:
+
+== Summary 
+
+The Product Manager seamlessly integrates customer feedback from the live online retail e-commerce website into the chat monitoring system, enabling timely and proactive responses
+
+== Survey
+
+== Additional Resources
