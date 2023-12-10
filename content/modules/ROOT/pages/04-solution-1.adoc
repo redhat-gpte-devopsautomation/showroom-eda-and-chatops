@@ -142,26 +142,8 @@ image::05_rocketchat_login-2.jpg[Rocketchat, 640]
 
 ****
 
-== Lab Challenge (Optional)
+== Summary
 
-Feel free to initiate and monitor the entire process for the utensils product. Below are the necessary details to ensure a smooth and comprehensive observation:
+In summary, the Product Manager adeptly integrates customer feedback from the live online retail e-commerce website into the chat monitoring system, fostering a seamless process for timely and proactive responses. This harmonized approach ensures a dynamic and customer-focused engagement strategy.
 
-. Re-visit the Smart Retail application console, select any utensils product, and share your thoughts, whether positive or constructive, about the product.
-
-. Access the RocketChat monitoring system to view the latest message posted by the Automation Controller.
-
-+
-****
-[upperalpha]
-
-.. Kindly find the login details for accessing RocketChat below:
-+
-IMPORTANT: Please logout and re-login as pm_utensils if you're already signed in.
-
-... *RocketChat Url:* {rocketchat_url}
-... *Username:* pm_utensils
-... *Password:* {rocketchat_admin_password}
-
-.. Navigate to the #utensils channel and review the new message.
-
-****
+*Kindly proceed to the next page as we delve into the seamless integration of the ChatOps system with Event-Driven Ansible.* 
