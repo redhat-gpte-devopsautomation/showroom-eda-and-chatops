@@ -1,5 +1,5 @@
 = Challenge Lab
-:navtitle: 5: Challenge Lab (Optional)
+:navtitle: 7: Challenge Lab (Optional)
 :numbered:
 
 == Addressing Challenge: 

@@ -1,15 +1,15 @@
 
 ._AI Based Smart Retail: Event-Driven Ansible & ChatOps_
 * xref:index.adoc[]
-* xref:00-agenda.adoc[]
-* xref:01-introduction.adoc[]
+* xref:02-agenda.adoc[]
+* xref:03-introduction.adoc[]
 
 ._Solution Addressing The Challenges_
-* xref:02-solution-1.adoc[]
-* xref:03-solution-2.adoc[]
-* xref:04-solution-3.adoc[]
-* xref:05-challenge.adoc[]
-* xref:06-review.adoc[]
+* xref:04-solution-1.adoc[]
+* xref:05-solution-2.adoc[]
+* xref:06-solution-3.adoc[]
+* xref:07-challenge.adoc[]
+* xref:08-review.adoc[]
 
 ._Support_
 * _rhdp_help@redhat.com_
