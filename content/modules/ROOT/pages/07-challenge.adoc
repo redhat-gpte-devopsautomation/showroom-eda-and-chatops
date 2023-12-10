@@ -4,12 +4,10 @@
 
 == Addressing Challenge: 
 
-The Product Manager seamlessly integrates customer feedback from the live online retail e-commerce website into the chat monitoring system, enabling timely and proactive responses
+Feel free to initiate and monitor the entire process for the utensils product. Below are the necessary details to ensure a smooth and comprehensive observation:
 
 
 == Solution
-
-Feel free to initiate and monitor the entire process for the utensils product. Below are the necessary details to ensure a smooth and comprehensive observation:
 
 . Re-visit the Smart Retail application console, select any utensils product, and share your thoughts, whether positive or constructive, about the product.
 +
