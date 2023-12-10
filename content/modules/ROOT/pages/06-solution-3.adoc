@@ -96,8 +96,24 @@ image::05_rocketchat_channel-1.jpg[RocketChat, 640]
 +
 ****
 [NOTE]
-As Product manager you have three ChatOps action command 
-has three action update,discontinue,and continue which can take against a product.
+====
+As Product manager you have three ChatOps action commands
+
+
+* Command- [update,continue,discontinue]
+* Options-
+** Product_ID: Unique Digital number assigned to product
+** Price: Final price in Digits
+* Examples
+** command,product_id,[Price]
+** *update,Product_ID,Price*
+** *discontinue,Product_ID*
+** *continue,Product_ID*
+
+====
+
+
+
 
 .. Type update,<id of the product>,price
 .. E.g update,398222222,5
