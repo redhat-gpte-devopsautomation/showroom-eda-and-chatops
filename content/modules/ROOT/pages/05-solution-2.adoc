@@ -44,7 +44,7 @@ TIP: You can skip the login process if you're already signed in.
 ... *Username:* {aap_controller_admin_user}
 ... *Password:* {aap_controller_admin_password}
 
-.. Navigate to Job Templates and proceed to create a new template with the following details:
+.. Navigate to *Templates* and proceed to create a new template with the following details:
 
 ... *Name:* chatops-action
 ... *Job Type:* Run
@@ -197,8 +197,8 @@ image::05_rocketchat_webhook-3.jpg[RocketChat, 640]
 
 
 .. Please provide the following details:
-... *Name (optional):* Event-driven Ansible and ChatOps
 ... *Enabled:* True
+... *Name (optional):* Event-driven Ansible and ChatOps
 ... *Channel:* #clothing,#utensils
 ... *Trigger Words:* update,continue,discontinue
 ... *URLs:* <Paste *eda-trigger* route created in openshift>
