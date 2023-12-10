@@ -115,4 +115,7 @@ TIP: You can skip the login process if you're already signed in.
 ****
 
 
-. Return to the Smart Retail Application, refresh the page, and locate the same T-shirt to verify any updated price. Refer to the details provided below for accurate information:
+. Return to the Smart Retail Application, refresh the page, and locate the same utensil product to verify.
+
+
+*Thank you for taking on the option challenge lab. Your engagement and effort contribute to a collaborative learning experience. If you have any more challenges or questions, feel free to reach out. Great job!*
