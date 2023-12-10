@@ -124,7 +124,7 @@ Replace ProductID with the product identifier and NewPrice with the updated pric
 These commands enable the Product Manager to efficiently and directly take actions on products based on the insights gathered from the ChatOps system.
 ====
 
-.. Please wait for the acknowledgement from Event-driven Ansible. Once received, navigate back to the Coolstore, refresh the page, and you'll observe the updated price reflecting the changes made by the executed ChatOps command.
+.. Kindly wait for the acknowledgement from Event-driven Ansible to ensure the successful execution of the ChatOps command. This confirmation will provide assurance that the requested action has been carried out as intended.
 +
 .RocketChat Channel Page
 image::05_rocketchat_channel-2.jpg[RocketChat, 640]
@@ -177,7 +177,7 @@ TIP: You can skip the login process if you're already signed in.
 +
 ****
 [upperalpha]
-.. Navigate to the 'Coolstore' tab located at the top of the page and locate the same T-shirt to verify.
+.. Go to the 'Coolstore' tab at the top of the page and find the same T-shirt to confirm that the price has been successfully updated..
 +
 .Smart Retail Appllicaton Page
 image::01_coolstore_action-1.jpg[coolstore, 640]
