@@ -6,4 +6,3 @@
 * *Workshop Introduction*
 * *Hands-On Session: Solution Addressing The Challenges*
 * *Challenge Lab (Optional)*
-* *Review*
