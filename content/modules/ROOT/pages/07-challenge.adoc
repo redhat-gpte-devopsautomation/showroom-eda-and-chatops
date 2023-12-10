@@ -83,3 +83,36 @@ Replace ProductID with the product identifier and NewPrice with the updated pric
 
 ====
 ****
+
+
+. Navigate to the Event-driven Ansible console and witness the smooth triggering of the Ansible Controller Job Template. 
++
+****
+[upperalpha]
+
+.. Kindly find the login details for accessing Event-driven Ansible below:
++
+TIP: You can skip the login process if you're already signed in.
+
+... *Event-driven Ansible:* {eda_controller_web_url}
+... *Username:* {eda_controller_admin_user}
+... *Password:* {eda_controller_admin_password}
+****
+
+
+. Access the Automation Controller to observe the job triggered by Event-driven Ansible upon posting the ChatOps action in RocketChat. 
++
+****
+[upperalpha]
+
+.. Kindly find the login details for accessing Automation Controller below:
++
+TIP: You can skip the login process if you're already signed in.
+
+... *Automation Controller:* {aap_controller_web_url}
+... *Username:* {aap_controller_admin_user}
+... *Password:* {aap_controller_admin_password}
+****
+
+
+. Return to the Smart Retail Application, refresh the page, and locate the same T-shirt to verify any updated price. Refer to the details provided below for accurate information:
