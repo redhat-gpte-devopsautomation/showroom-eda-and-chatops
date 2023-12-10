@@ -7,7 +7,7 @@
 The Product Manager seamlessly integrates customer feedback from the live online retail e-commerce website into the chat monitoring system, enabling timely and proactive responses
 
 
-== Solution
+== Solution:
 
 . Sign in to the Smart Retail Application using the credentials for user 'asilva' to submit feedback for the clothing product, adhering to the details provided below:
 
@@ -142,7 +142,7 @@ image::05_rocketchat_login-2.jpg[Rocketchat, 640]
 
 ****
 
-== Summary
+== Summary:
 
 In summary, the Product Manager adeptly integrates customer feedback from the live online retail e-commerce website into the chat monitoring system, fostering a seamless process for timely and proactive responses. This harmonized approach ensures a dynamic and customer-focused engagement strategy.
 
