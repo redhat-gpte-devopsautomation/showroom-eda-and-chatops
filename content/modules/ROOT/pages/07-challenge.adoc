@@ -12,9 +12,32 @@ The Product Manager seamlessly integrates customer feedback from the live online
 Feel free to initiate and monitor the entire process for the utensils product. Below are the necessary details to ensure a smooth and comprehensive observation:
 
 . Re-visit the Smart Retail application console, select any utensils product, and share your thoughts, whether positive or constructive, about the product.
++
+****
+[upperalpha]
+
+.. Kindly find the login details for accessing Smart Retail Application below:
++
+TIP: You can skip the login process if you're already signed in.
+
+... *Web Url:* https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}
+... *Username:* asilva
+... *Password:* openshift
+****
+
+. Access the Grafana dashboard to monitor historical sentiments for the utensils product.
++
+****
+.. Kindly find the login details for accessing RocketChat below:
++
+TIP: You can skip the login process if you're already signed in.
+
+... *Grafana URL:* https://grafana-route-influxdb-project.{openshift_cluster_ingress_domain}
+... *Username:* admin
+... *Password:* {gitea_admin_password}
+****
 
 . Access the RocketChat monitoring system to view the latest message posted by the Automation Controller.
-
 +
 ****
 [upperalpha]
@@ -28,5 +51,7 @@ IMPORTANT: Please logout and re-login as pm_utensils if you're already signed in
 ... *Password:* {rocketchat_admin_password}
 
 .. Navigate to the #utensils channel and review the new message.
-
 ****
+
+
+
