@@ -156,6 +156,10 @@ TIP: You can skip the login process if you're already signed in.
 +
 ****
 [upperalpha]
-.. 
+.. Head to Cool Stuff Store and locate the same T-shirt to verify.
++
+.Smart Retail Appllicaton Page
+image::01_coolstore_action-1.jpg[coolstore, 640]
+
 
 ****
