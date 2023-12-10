@@ -53,5 +53,33 @@ IMPORTANT: Please logout and re-login as pm_utensils if you're already signed in
 .. Navigate to the #utensils channel and review the new message.
 ****
 
+. As the product manager overseeing Utensils, following a thorough review of the feedback, Try to execute the necessary ChatOps commands in the #utensils channel for the product.
 
++
+****
+[NOTE]
+====
+Here are the three ChatOps action commands available to the Product Manager:
 
+* *Update Price Command:* To update the price of a product, use the command.
++
+----
+update,ProductID,NewPrice
+----
+
+* *Block Product Command:* To block a specific product, issue the command in the respective channel.
++
+----
+discontinue,ProductID
+----
+
+* *Unblock Product Command:* To unblock a specific product, issue the command in the respective channel.
++
+----
+continue,ProductID
+----
+
+Replace ProductID with the product identifier and NewPrice with the updated price for the product
+
+====
+****
