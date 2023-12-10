@@ -198,6 +198,7 @@ image::05_rocketchat_webhook-3.jpg[RocketChat, 640]
 
 .. Please provide the following details:
 ... *Name (optional):* Event-driven Ansible and ChatOps
+... *Enabled:* True
 ... *Channel:* #clothing,#utensils
 ... *Trigger Words:* update,continue,discontinue
 ... *URLs:* <Paste *eda-trigger* route created in openshift>
