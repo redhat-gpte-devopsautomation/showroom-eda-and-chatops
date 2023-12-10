@@ -171,7 +171,6 @@ TIP: You can skip the login process if you're already signed in.
 ****
 
 
-
 . Return to the Smart Retail Application, refresh the page, and locate the same T-shirt to verify any updated price. Refer to the details provided below for accurate information:
 
 +
@@ -182,5 +181,10 @@ TIP: You can skip the login process if you're already signed in.
 .Smart Retail Appllicaton Page
 image::01_coolstore_action-1.jpg[coolstore, 640]
 
-
 ****
+
+== Conclusion
+In conclusion, as a Product Manager, the amalgamation of comprehensive data insights from the Grafana dashboard provides a robust understanding of overall and historical customer sentiments within specific product categories. The integration of real-time feedback from our chat system enhances our ability to discern sentiments surrounding specific products. This dynamic combination equips us to make informed decisions, strategically implementing discounts or temporarily disabling items as needed. The synergy between historical trends and live feedback ensures our responsiveness to evolving customer preferences, fostering a customer-centric decision-making process.
+
+
+*Feel free to continue to the next page for further information or actions.*
