@@ -81,15 +81,17 @@ IMPORTANT: Kindly log out and log back in as pm_clothing if you are currently si
 * Message Triggered by: Event-driven Ansible
 * Message Posted by: Automation Controller
 * Content:
-** *USER SENTIMENT*: positive,
+** *USER SENTIMENT*: negative,
 ** *PRODUCT_CATEGORY*: clothing, 
 ** *PRODUCT_ID*: 329299, 
 ** *PRODUCT_NAME*: Quarkus T-shirt, 
 ** *USER NAME*: Addison Silva, 
 ** *REGION*: USA, 
-** *REVIEW*: This good product, 
+** *REVIEW*: his is over priced T-shirt, 
 ** *SCORE:* 2
-
++
+.RocketChat Channel Page
+image::05_rocketchat_login-3.jpg[RocketChat, 640]
 ****
 
 . As the product manager, your integral role encompasses active engagement with customer feedback and sentiment analysis. After carefully reviewing messages and closely monitoring sentiments, you hold the authority to take decisive action on the product. Leverage the insights gained to craft and send an action message in the #clothing channel, addressing specific actions, production ID, and optionally, price, based on the sentiments observed. Your proactive involvement plays a pivotal role in shaping a positive and customer-centric experience.
