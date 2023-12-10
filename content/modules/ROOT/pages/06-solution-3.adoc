@@ -51,6 +51,10 @@ image::08_grafana_login.jpg[Grafana, 400]
 image::08_grafana_dashboard-1.jpg[Grafana, 640]
 
 .. Take a moment to observe the sentiments associated with the clothing category.
++
+.Grafana Dashboard page
+image::08_grafana_dashboard-2.jpg[Grafana, 640]
+
 ****
 
 
