@@ -77,10 +77,7 @@ IMPORTANT: Kindly log out and log back in as pm_clothing if you are currently si
 ... *Password:* {rocketchat_admin_password}
 
 .. Navigate to the #clothing channel and review the new message that contains the original feedback, along with additional product details.
-* Message Source: Smart Retail Application
-* Message Triggered by: Event-driven Ansible
-* Message Posted by: Automation Controller
-* Content:
+* Message Content:
 ** *USER SENTIMENT*: negative,
 ** *PRODUCT_CATEGORY*: clothing, 
 ** *PRODUCT_ID*: 329299, 
@@ -98,7 +95,9 @@ image::05_rocketchat_channel-1.jpg[RocketChat, 640]
 
 +
 ****
-NOTE: Product manager has three action update,discontinue,and continue which can take against a product.
+[NOTE]
+As Product manager you have three ChatOps action command 
+has three action update,discontinue,and continue which can take against a product.
 
 .. Type update,<id of the product>,price
 .. E.g update,398222222,5
@@ -156,7 +155,7 @@ TIP: You can skip the login process if you're already signed in.
 +
 ****
 [upperalpha]
-.. Head to Cool Stuff Store and locate the same T-shirt to verify.
+.. Navigate to the 'Coolstore' tab located at the top of the page and locate the same T-shirt to verify.
 +
 .Smart Retail Appllicaton Page
 image::01_coolstore_action-1.jpg[coolstore, 640]
