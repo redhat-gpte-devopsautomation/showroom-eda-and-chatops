@@ -99,7 +99,7 @@ image::05_rocketchat_channel-1.jpg[RocketChat, 640]
 +
 [NOTE]
 ====
-As Product manager you have three ChatOps action commands
+Here are the three ChatOps action commands available to the Product Manager:
 
 * *Update Price Command:* To update the price of a product, use the command.
 +
@@ -122,13 +122,9 @@ continue,ProductID
 Replace ProductID with the product identifier and NewPrice with the updated price for the product
 
 These commands enable the Product Manager to efficiently and directly take actions on products based on the insights gathered from the ChatOps system.
-
 ====
 
-
-
-.. Now wait for the acknowledgement  from Event-driven Ansible
-.. After the acknowledgement, go back to the coolstore, refresh the page and you will see the update price. 
+.. Please wait for the acknowledgement from Event-driven Ansible. Once received, navigate back to the Coolstore, refresh the page, and you'll observe the updated price reflecting the changes made by the executed ChatOps command.
 +
 .RocketChat Channel Page
 image::05_rocketchat_channel-2.jpg[RocketChat, 640]
