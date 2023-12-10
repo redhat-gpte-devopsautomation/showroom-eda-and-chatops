@@ -7,7 +7,7 @@
 As an administrator, streamlining the integration of the ChatOps system with Event-Driven Ansible Architecture proves to be a seamless process. This integration offers a significant advantage for product managers, enabling them to effortlessly issue commands directly from the chat system. This functionality empowers product managers to swiftly trigger changes for specific categories, such as applying discounts or disabling a particular category on the online retail website.
 
 
-== Solution
+== Solution:
 . Open Visual Studio Code to explore and gain a better understanding of the Ansible playbooks and Event-driven Ansible rulebooks utilized in the 'Solution Addressing The Challenges'.
 +
 ****
@@ -212,3 +212,7 @@ image::05_rocketchat_webhook-3.jpg[RocketChat, 640]
 image::05_rocketchat_webhook-4.jpg[RocketChat, 640]
 ****
 
+== Summary:
+As an administrator, seamlessly integrating the ChatOps system with Event-Driven Ansible Architecture proves advantageous for product managers. This streamlined process empowers them to issue commands directly from the chat system, enabling swift changes for specific categories, from applying discounts to disabling particular sections on the online retail website.
+
+*Let's move forward to the next page where we'll delve into the analysis of live messages and the timely execution of actions through ChatOps commands*
