@@ -95,28 +95,37 @@ image::05_rocketchat_channel-1.jpg[RocketChat, 640]
 
 +
 ****
+.. As the product manager, after reviewing the negative feedback, you've decided to reduce the price of the T-shirt. To implement this change, you can directly post the command in the #clothing channel as follows: `update,329299,5`. This command will trigger Event-driven Ansible to execute an Automation Controller job template, updating the price of the product in the Smart Retail Application.
++
 [NOTE]
 ====
 As Product manager you have three ChatOps action commands
 
+* *Update Price Command:* To update the price of a product, use the command.
++
+----
+update,ProductID,NewPrice
+----
 
-* Command- [update,continue,discontinue]
-* Options-
-** Product_ID: Unique Digital number assigned to product
-** Price: Final price in Digits
-* Examples
-** command,product_id,[Price]
-** *update,Product_ID,Price*
-** *discontinue,Product_ID*
-** *continue,Product_ID*
+* *Block Product Command:* To block a specific product, issue the command in the respective channel.
++
+----
+discontinue,ProductID
+----
+
+* *Unblock Product Command:* To unblock a specific product, issue the command in the respective channel.
++
+----
+continue,ProductID
+----
+
+Replace ProductID with the product identifier and NewPrice with the updated price for the product
+These commands enable the Product Manager to efficiently and directly take actions on products based on the insights gathered from the ChatOps system.
 
 ====
 
 
 
-
-.. Type update,<id of the product>,price
-.. E.g update,398222222,5
 .. Now wait for the acknowledgement  from Event-driven Ansible
 .. After the acknowledgement, go back to the coolstore, refresh the page and you will see the update price. 
 +
