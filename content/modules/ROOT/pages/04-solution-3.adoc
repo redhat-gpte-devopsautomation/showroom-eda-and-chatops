@@ -73,15 +73,14 @@ IMPORTANT: Kindly log out and log back in as pm_clothing if you are currently si
 * Message Triggered by: Event-driven Ansible
 * Message Posted by: Automation Controller
 * Content:
-
-  *USER SENTIMENT*: positive,
-  *PRODUCT_CATEGORY*: clothing, 
-  *PRODUCT_ID*: 329299, 
-  *PRODUCT_NAME*: Quarkus T-shirt, 
-  *USER NAME*: Addison Silva, 
-  *REGION*: USA, 
-  *REVIEW*: This good product, 
-  *SCORE:* 2
+** *USER SENTIMENT*: positive,
+** *PRODUCT_CATEGORY*: clothing, 
+** *PRODUCT_ID*: 329299, 
+** *PRODUCT_NAME*: Quarkus T-shirt, 
+** *USER NAME*: Addison Silva, 
+** *REGION*: USA, 
+** *REVIEW*: This good product, 
+** *SCORE:* 2
 
 ****
 
