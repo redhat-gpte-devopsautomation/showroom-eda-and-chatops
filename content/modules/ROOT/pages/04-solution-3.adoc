@@ -98,66 +98,48 @@ NOTE: Product manager has three action update,discontinue,and continue which can
 ****
 
 
-. Access the Event-driven Ansible console to observe the seamless triggering of the Ansible Controller Job Template upon submitting feedback in the Smart Retail Application. Refer to the details provided below for a comprehensive view of this process:
+. Navigate to the Event-driven Ansible console and witness the smooth triggering of the Ansible Controller Job Template. This activation occurs when the product manager posts a chatops action in the RocketChat #clothing channel. For detailed insights, please refer to the information provided below:
 
 +
 ****
 [upperalpha]
 
 .. Kindly find the login details for accessing Event-driven Ansible below:
++
+TIP: You can skip the login process if you're already signed in.
+
 ... *Event-driven Ansible:* {eda_controller_web_url}
 ... *Username:* {eda_controller_admin_user}
 ... *Password:* {eda_controller_admin_password}
-+
-.Event-driven Ansible Login Page
-image::03_eda_login.jpg[Event-driven Ansible, 400]
 
-.. Navigate to 'Rulebook Activations' and observe that the 'push-favourable-feedback' Fire count has increased by 1. This indicates the successful triggering of the specified rulebook activation. Your attention to this metric is crucial for monitoring the feedback integration process effectively.
-+
-.Event-driven Ansible Rulebook Activations Page
-image::03_eda_favourable_trigger.jpg[Event-driven Ansible, 640]
 
-.. Access 'push-favourable-feedback' rulebook activations, then click on 'History' to review the log history and obtain a detailed list of activities and events. This will provide valuable insights into the execution and outcomes associated with this rulebook activation.
-+
-.Event-driven Ansible Rulebook Activations History Page
-image::03_eda_favourable_trigger_history-1.jpg[Event-driven Ansible, 640]
-
-.. Select the latest entry 'X - push-favourable-feedback' to access and review the triggered logs. Take a moment to observe the log details, as they provide valuable information about the events and actions initiated during the execution of this rulebook activation.
-+
-.Event-driven Ansible Rulebook Activations History Logs
-image::03_eda_favourable_trigger_history-2.jpg[Event-driven Ansible, 640]
+.. Head to 'Rulebook Activations' and take note of the 'rocketchat-trigger' Fire count, which should reflect an increase of 1. This signifies the successful triggering of the designated rulebook activation. Monitoring this metric is essential for an effective overview of the RocketChat ChatOps integration process.
 
 ****
 
 
-. Log in to the Automation Controller to observe the job triggered by Event-driven Ansible upon submitting feedback. The Automation Controller job is designed to post formatted feedback in RocketChat. This feature ensures that the product manager can efficiently monitor feedback and take timely actions as needed. Refer to the details provided below for a comprehensive overview of this integration process.
+. Access the Automation Controller to observe the job triggered by Event-driven Ansible upon posting the ChatOps action in RocketChat. The Automation Controller job is specifically crafted to update the Smart Retail Application as per the action instruction provided. This functionality ensures that the product manager can efficiently and promptly take necessary actions. For a detailed understanding of this integration process, please refer to the information provided below.
 
 +
 ****
 [upperalpha]
 
 .. Kindly find the login details for accessing Automation Controller below:
++
+TIP: You can skip the login process if you're already signed in.
+
 ... *Automation Controller:* {aap_controller_web_url}
 ... *Username:* {aap_controller_admin_user}
 ... *Password:* {aap_controller_admin_password}
 
-+
-.Automation Controller Login Page
-image::04_controller_login-1.jpg[Automation_Controller,350]
 
-.. Navigate to 'Jobs' and observe the latest executed job, identified as 'X - push-favourable-feedback.' This allows you to review the details of the most recent execution, providing insights into the actions taken as a result of the triggered event.
-+
-.Automation Controller Jobs Page
-image::04_controller_job-1.jpg[Automation_Controller,640]
-
-.. Select 'X - push-favourable-feedback' to view and analyze the logs associated with this specific job. By examining the logs, you can gain a deeper understanding of the processes and actions carried out during the execution of this particular task.
-+
-.Automation Controller Jobs Details
-image::04_controller_job-2.jpg[Automation_Controller,640]
+.. Head to 'Jobs' and take note of the latest executed job labeled 'X - chatops-action.' This allows you to review the details of the most recent execution, offering insights into the specific actions taken as a result of the triggered event.
 
 ****
 
-. Sign in to the Smart Retail Application using the credentials for user 'asilva' to submit feedback for the clothing product, adhering to the details provided below:
+
+
+. Return to the Smart Retail Application, refresh the page, and locate the same T-shirt to verify any updated price. Refer to the details provided below for accurate information:
 
 +
 ****
