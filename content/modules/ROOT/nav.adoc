@@ -12,4 +12,10 @@
 
 ._Learning References_
 * https://www.redhat.com/en/technologies/management/ansible/event-driven-ansible[_Event-driven Ansible_]
-* https://www.redhat.com/en/resources/amq-streams-datasheet[_Red Hat AMQ Streams_]
+* https://developers.redhat.com/learn?ref=webconsole[_Red Hat OpenShift_]
+* https://developers.redhat.com/topics/kafka-kubernetes[_Apache Kafka on Kubernetes_]
+* https://www.redhat.com/en/resources/amq-streams-datasheet[_Red Hat AMQ 
+Streams_]
+* Blogs:
+** test1
+** test2
