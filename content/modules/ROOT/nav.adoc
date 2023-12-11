@@ -12,3 +12,4 @@
 
 ._Learning References_
 * _rhdp_help@redhat.com_
+* https://www.redhat.com/en/technologies/management/ansible/event-driven-ansible[Event-driven Ansible]
