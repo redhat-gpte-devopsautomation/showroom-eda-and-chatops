@@ -14,7 +14,7 @@ Feel free to initiate and monitor the entire process for the utensils product. B
 ****
 [upperalpha]
 
-.. Kindly find the login details for accessing Smart Retail Application below:
+.. Find the login details for accessing Smart Retail Application below:
 +
 TIP: You can skip the login process if you're already signed in.
 
@@ -26,7 +26,7 @@ TIP: You can skip the login process if you're already signed in.
 . Access the Grafana dashboard to monitor historical sentiments for the utensils product.
 +
 ****
-.. Kindly find the login details for accessing RocketChat below:
+.. Find the login details for accessing RocketChat below:
 +
 TIP: You can skip the login process if you're already signed in.
 
@@ -40,7 +40,7 @@ TIP: You can skip the login process if you're already signed in.
 ****
 [upperalpha]
 
-.. Kindly find the login details for accessing RocketChat below:
+.. Find the login details for accessing RocketChat below:
 +
 IMPORTANT: Please logout and re-login as pm_utensils if you're already signed in.
 
@@ -88,7 +88,7 @@ Replace ProductID with the product identifier and NewPrice with the updated pric
 ****
 [upperalpha]
 
-.. Kindly find the login details for accessing Event-driven Ansible below:
+.. Find the login details for accessing Event-driven Ansible below:
 +
 TIP: You can skip the login process if you're already signed in.
 
@@ -103,7 +103,7 @@ TIP: You can skip the login process if you're already signed in.
 ****
 [upperalpha]
 
-.. Kindly find the login details for accessing Automation Controller below:
+.. Find the login details for accessing Automation Controller below:
 +
 TIP: You can skip the login process if you're already signed in.
 
