@@ -24,7 +24,7 @@
 ** https://medium.com/@ritz.shah/gitops-ci-cd-mlops-how-it-all-comes-together-for-an-ai-ml-developer-a9d15e43dccf[_GitOps, CI/CD & MLOps- How it all comes together for an AI/ML Developer_,window=_blank]
 
 * Videos:
-** https://www.youtube.com/watch?v=Bt2tZB_5F2U&list=PLdu06OJoEf2a3fFl6uaoyGV526ilwD97R[_Event-driven Ansible_,window=_blank]
-** https://www.youtube.com/watch?v=6MjYPrlOiQA[_Event-driven Ansible and Lightspeed_,window=_blank]
+** https://www.youtube.com/watch?v=Bt2tZB_5F2U&list=PLdu06OJoEf2a3fFl6uaoyGV526ilwD97R[_* Event-driven Ansible_,window=_blank]
+** https://www.youtube.com/watch?v=6MjYPrlOiQA[_* Event-driven Ansible and Lightspeed_,window=_blank]
 ** https://www.youtube.com/watch?v=1mj_nfgY40E&t=209s[_OpenShift + Ansible: Event-Driven PVC Snapshots Made Easy_,window=_blank]
 ** https://www.youtube.com/watch?v=yfXcGB7l0II[_Ansible Lightspeed with IBM Watson Code Assistant with IBM Watson Code Assistant_,window=_blank]
