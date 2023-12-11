@@ -4,9 +4,9 @@
 
 == Workshop Overview
 
-This AI-based smart retail solution features a scalable and efficient architecture designed to capture and respond to events, facilitating swift decision-making by product managers through streamlined operations like ChatOps. Leveraging Event-driven Ansible, the system seamlessly connects and consumes data from various systems and services, responding to triggering events.
+This AI-based smart retail solution features a scalable and efficient architecture designed to capture and respond to events, facilitating swift decision-making by product managers through streamlined operations like ChatOps. Leveraging link:https://www.redhat.com/en/technologies/management/ansible/event-driven-ansible[Event-driven Ansible], the system seamlessly connects and consumes data from various systems and services, responding to triggering events.
 
-The integration of Event-driven Ansible with Red Hat AMQ Streams and ChatOps exemplifies how this architecture can construct an intelligent system, driving valuable business insights through an event-driven workflow. This cohesive approach enhances the agility of operational actions, empowering business teams with the ability to respond effectively to dynamic retail scenarios.
+The integration of link:https://www.redhat.com/en/technologies/management/ansible/event-driven-ansible[Event-driven Ansible] with link:https://www.redhat.com/en/resources/amq-streams-datasheet[Red Hat AMQ Streams] and ChatOps exemplifies how this architecture can construct an intelligent system, driving valuable business insights through an event-driven workflow. This cohesive approach enhances the agility of operational actions, empowering business teams with the ability to respond effectively to dynamic retail scenarios.
 
 
 == Use Cases
