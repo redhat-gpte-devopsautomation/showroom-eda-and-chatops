@@ -10,7 +10,7 @@
 * xref:06-solution-3.adoc[]
 * xref:07-challenge.adoc[]
 
-._*Learning References*_
+.*_Learning References_*
 * _Sites_:
 ** https://www.redhat.com/en/technologies/management/ansible[_* Red Hat Ansible Automation Platform_,window=_blank]
 ** https://www.redhat.com/en/technologies/management/ansible/event-driven-ansible[_* Red Hat Event-driven Ansible_,window=_blank]
