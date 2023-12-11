@@ -14,7 +14,7 @@ ui:
       contents: "static_files: [ .nojekyll ]"
 
 content:
-  editUrl: ~
+  edit_url: ~
   sources:
     - url: ./
       start_path: content
