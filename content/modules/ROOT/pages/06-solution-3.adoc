@@ -1,5 +1,5 @@
 = Solution Addressing The Challenges
-:navtitle: * Product Manager - Constructive Decisions
+:navtitle: 3: Product Manager - Constructive Decisions
 :numbered:
 
 == Addressing Challenge: 
