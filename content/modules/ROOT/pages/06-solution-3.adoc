@@ -16,11 +16,11 @@ As a Product Manager, leveraging data points extracted from the Grafana dashboar
 ****
 [upperalpha]
 
-.. Kindly find the login details for accessing Smart Retail Application below:
+.. Find the login details for accessing Smart Retail Application below:
 +
 TIP: You can skip the login process if you're already signed in.
 
-... *Web Url:* https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}
+... *Web Url:* https://globex-web-sentiment-analysis.{openshift_cluster_ingress_domain}[window=_blank]
 ... *Username:* asilva
 ... *Password:* openshift
 
@@ -40,8 +40,8 @@ image::01_coolstore_feedback-4.jpg[coolstore, 640]
 . Access the Grafana dashboard to monitor historical sentiments for the product. Please log in to view and analyze sentiment trends over time.
 +
 ****
-.. Kindly find the login details for accessing RocketChat below:
-... *Grafana URL:* https://grafana-route-influxdb-project.{openshift_cluster_ingress_domain}
+.. Find the login details for accessing RocketChat below:
+... *Grafana URL:* https://grafana-route-influxdb-project.{openshift_cluster_ingress_domain}[window=_blank]
 ... *Username:* admin
 ... *Password:* {gitea_admin_password}
 +
@@ -68,11 +68,11 @@ image::08_grafana_dashboard-2.jpg[Grafana, 640]
 ****
 [upperalpha]
 
-.. Kindly find the login details for accessing RocketChat below:
+.. Find the login details for accessing RocketChat below:
 +
 IMPORTANT: Kindly log out and log back in as pm_clothing if you are currently signed in. This will ensure that you have the appropriate access and privileges for the next steps
 
-... *RocketChat Url:* {rocketchat_url}
+... *RocketChat Url:* {rocketchat_url}[window=_blank]
 ... *Username:* pm_clothing
 ... *Password:* {rocketchat_admin_password}
 
@@ -138,11 +138,11 @@ image::05_rocketchat_channel-2.jpg[RocketChat, 640]
 ****
 [upperalpha]
 
-.. Kindly find the login details for accessing Event-driven Ansible below:
+.. Find the login details for accessing Event-driven Ansible below:
 +
 TIP: You can skip the login process if you're already signed in.
 
-... *Event-driven Ansible:* {eda_controller_web_url}
+... *Event-driven Ansible:* {eda_controller_web_url}[window=_blank]
 ... *Username:* {eda_controller_admin_user}
 ... *Password:* {eda_controller_admin_password}
 
@@ -159,11 +159,11 @@ TIP: You can skip the login process if you're already signed in.
 ****
 [upperalpha]
 
-.. Kindly find the login details for accessing Automation Controller below:
+.. Find the login details for accessing Automation Controller below:
 +
 TIP: You can skip the login process if you're already signed in.
 
-... *Automation Controller:* {aap_controller_web_url}
+... *Automation Controller:* {aap_controller_web_url}[window=_blank]
 ... *Username:* {aap_controller_admin_user}
 ... *Password:* {aap_controller_admin_password}
 

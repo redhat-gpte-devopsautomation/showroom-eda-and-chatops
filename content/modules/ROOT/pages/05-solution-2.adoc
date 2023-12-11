@@ -12,8 +12,8 @@ As an administrator, streamlining the integration of the ChatOps system with Eve
 +
 ****
 [upperalpha]
-.. Kindly find the login details for accessing Visual Studio Code below:
-... *Vscode Console Url:* {codeserver_url}
+.. Find the login details for accessing Visual Studio Code below:
+... *Vscode Console Url:* {codeserver_url}[window=_blank]
 ... *Password:* {codeserver_password}
 +
 .VScode Login Page
@@ -36,11 +36,11 @@ image::07_vscode_rulebook-1.jpg[VScode, 640]
 +
 ****
 [upperalpha]
-.. Kindly find the login details for accessing Automation Controller below:
+.. Find the login details for accessing Automation Controller below:
 +
 TIP: You can skip the login process if you're already signed in.
 
-... *Automation Controller:* {aap_controller_web_url}
+... *Automation Controller:* {aap_controller_web_url}[window=_blank]
 ... *Username:* {aap_controller_admin_user}
 ... *Password:* {aap_controller_admin_password}
 
@@ -86,11 +86,11 @@ image::04_controller_job_template-1.jpg[Automation Controller, 640]
 ****
 [upperalpha]
 
-.. Kindly find the login details for accessing Event-driven Ansible below:
+.. Find the login details for accessing Event-driven Ansible below:
 +
 TIP: You can skip the login process if you're already signed in.
 
-... *Event-driven Ansible:* {eda_controller_web_url}
+... *Event-driven Ansible:* {eda_controller_web_url}[window=_blank]
 ... *Username:* {eda_controller_admin_user}
 ... *Password:* {eda_controller_admin_password}
 
@@ -119,8 +119,8 @@ image::03_eda_rulebook-2.jpg[Event-driven Ansible, 640]
 ****
 [upperalpha]
 
-.. Kindly find the login details for accessing Openshift Console below:
-... *Console URL:* {openshift_console_url}
+.. Find the login details for accessing Openshift Console below:
+... *Console URL:* {openshift_console_url}[window=_blank]
 ... *Username:* {openshift_cluster_admin_username}
 ... *Password:* {openshift_cluster_admin_password}
 
@@ -163,11 +163,11 @@ image::06_openshift_route-3.jpg[OpenShift, 640]
 ****
 [upperalpha]
 
-.. Kindly find the login details for accessing RocketChat below:
+.. Find the login details for accessing RocketChat below:
 +
 IMPORTANT: Kindly log out and log back in as an admin if you are currently signed in. This will ensure that you have the appropriate access and privileges for the next steps
 
-... *RocketChat Url:* {rocketchat_url}
+... *RocketChat Url:* {rocketchat_url}[window=_blank]
 ... *Username:* admin
 ... *Password:* {rocketchat_admin_password}
 
