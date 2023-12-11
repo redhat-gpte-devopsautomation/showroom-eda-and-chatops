@@ -134,6 +134,7 @@ image::05_rocketchat_channel-2.jpg[RocketChat, 640]
 . Navigate to the Event-driven Ansible console and witness the smooth triggering of the Ansible Controller Job Template. This activation occurs when the product manager posts a chatops action in the RocketChat #clothing channel. For detailed insights, please refer to the information provided below:
 
 +
+.Optional step to verify
 ****
 [upperalpha]
 
@@ -154,7 +155,7 @@ TIP: You can skip the login process if you're already signed in.
 . Access the Automation Controller to observe the job triggered by Event-driven Ansible upon posting the ChatOps action in RocketChat. The Automation Controller job is specifically crafted to update the Smart Retail Application as per the action instruction provided. This functionality ensures that the product manager can efficiently and promptly take necessary actions. For a detailed understanding of this integration process, please refer to the information provided below.
 
 +
-.Option step to verify
+.Optional step to verify
 ****
 [upperalpha]
 
