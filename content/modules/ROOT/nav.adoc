@@ -11,11 +11,18 @@
 * xref:07-challenge.adoc[]
 
 ._Learning References_
-* https://www.redhat.com/en/technologies/management/ansible/event-driven-ansible[_Event-driven Ansible_]
-* https://developers.redhat.com/learn?ref=webconsole[_Red Hat OpenShift_]
-* https://developers.redhat.com/topics/kafka-kubernetes[_Apache Kafka on Kubernetes_]
-* https://www.redhat.com/en/resources/amq-streams-datasheet[_Red Hat AMQ 
+* Sites:
+** https://www.redhat.com/en/technologies/management/ansible[_Red Hat Ansible Automation Platform_]
+** https://www.redhat.com/en/technologies/management/ansible/event-driven-ansible[_Red Hat Event-driven Ansible_]
+** https://developers.redhat.com/learn?ref=webconsole[_Red Hat OpenShift_]
+** https://developers.redhat.com/topics/kafka-kubernetes[_Apache Kafka on Kubernetes_]
+** https://www.redhat.com/en/resources/amq-streams-datasheet[_Red Hat AMQ 
 Streams_]
+
 * Blogs:
-** test1
+** https://medium.com/@miteshget/event-driven-ansible-the-simple-way-to-automate-your-it-processes-3f7bfa57cb9e[_Event-Driven Automation_]
 ** test2
+
+* Videos:
+** https://www.youtube.com/watch?v=Bt2tZB_5F2U&list=PLdu06OJoEf2a3fFl6uaoyGV526ilwD97R[_Event-driven Ansible_]
+** https://www.youtube.com/watch?v=1mj_nfgY40E&t=209s[_OpenShift + Ansible: Event-Driven PVC Snapshots Made Easy_]
