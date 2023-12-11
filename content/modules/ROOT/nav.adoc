@@ -11,5 +11,5 @@
 * xref:07-challenge.adoc[]
 
 ._Learning References_
-* _rhdp_help@redhat.com_
-* https://www.redhat.com/en/technologies/management/ansible/event-driven-ansible[Event-driven Ansible]
+* https://www.redhat.com/en/technologies/management/ansible/event-driven-ansible[_Event-driven Ansible_]
+* https://www.redhat.com/en/resources/amq-streams-datasheet[_Red Hat AMQ Streams_]
