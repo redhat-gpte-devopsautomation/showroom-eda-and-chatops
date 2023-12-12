@@ -12,6 +12,7 @@
 * *_Reference Articles_*:
 ** https://medium.com/@miteshget/event-driven-ansible-the-simple-way-to-automate-your-it-processes-3f7bfa57cb9e[_Event-Driven Automation_,window=_blank]
 ** https://medium.com/@ritz.shah/rocket-chat-setup-configuration-and-working-in-an-openshift-k8s-environment-3b418a3e48c7[_Rocket Chat Setup Configuration and Working in an OpenShift_,window=_blank]
+** https://redhat-solution-patterns.github.io/solution-pattern-sentiment-analysis/solution-pattern-sentiment-analysis/index.html[_Solution Patterns: Event-Driven Sentiment Analysis with Kafka and AI/ML_,window=_blank]
 
 * *_Learning Videos_*:
 ** https://www.youtube.com/watch?v=Bt2tZB_5F2U&list=PLdu06OJoEf2a3fFl6uaoyGV526ilwD97R[_Event-driven Ansible_,window=_blank]
