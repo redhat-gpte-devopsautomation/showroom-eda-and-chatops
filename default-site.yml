@@ -10,7 +10,7 @@ ui:
   supplemental_files:
     - path: ./content/supplemental-ui
     - path: .nojekyll
-    - path: partials/header-content.hbs
+    - path: header-content.hbs
     - path: ui.yml
       contents: "static_files: [ .nojekyll ]"
 
