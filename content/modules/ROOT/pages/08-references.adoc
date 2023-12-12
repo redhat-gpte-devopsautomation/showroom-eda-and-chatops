@@ -2,7 +2,7 @@
 = Learning References
 :navtitle: _Learning References_
 
-* *_Sites_*:
+* *_Product Pages_*:
 ** https://www.redhat.com/en/technologies/management/ansible[_Red Hat Ansible Automation Platform_,window=_blank]
 ** https://www.redhat.com/en/technologies/management/ansible/event-driven-ansible[_Red Hat Event-driven Ansible_,window=_blank]
 ** https://developers.redhat.com/learn?ref=webconsole[_Red Hat OpenShift_,window=_blank]
