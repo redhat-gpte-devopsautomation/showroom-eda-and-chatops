@@ -1,6 +1,6 @@
 
 = Learning References
-:navtitle: *_Learning References_*
+:navtitle: _Learning References_
 
 * *_Sites_*:
 ** https://www.redhat.com/en/technologies/management/ansible[_Red Hat Ansible Automation Platform_,window=_blank]
