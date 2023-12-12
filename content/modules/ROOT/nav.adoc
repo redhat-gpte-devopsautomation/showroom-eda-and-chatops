@@ -10,4 +10,4 @@
 * xref:06-solution-3.adoc[]
 * xref:07-challenge.adoc[]
 
-.xref:08-references.adoc[]
+* xref:08-references.adoc[]
