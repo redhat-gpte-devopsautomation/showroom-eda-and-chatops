@@ -17,4 +17,4 @@
 ** https://www.youtube.com/watch?v=Bt2tZB_5F2U&list=PLdu06OJoEf2a3fFl6uaoyGV526ilwD97R[_Event-driven Ansible_,window=_blank]
 ** https://www.youtube.com/watch?v=6MjYPrlOiQA[_Event-driven Ansible and Lightspeed_,window=_blank]
 ** https://www.youtube.com/watch?v=1mj_nfgY40E&t=209s[_OpenShift + Ansible: Event-Driven PVC Snapshots Made Easy_,window=_blank]
-** https://www.youtube.com/watch?v=yfXcGB7l0II[_Ansible Lightspeed with IBM Watson Code Assistant with IBM Watson Code Assistant_,window=_blank]
+** https://www.youtube.com/watch?v=yfXcGB7l0II[_Ansible Lightspeed with IBM Watson Code Assistant_,window=_blank]
