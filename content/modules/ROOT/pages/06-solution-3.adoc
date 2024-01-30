@@ -85,7 +85,7 @@ IMPORTANT: Kindly log out and log back in as pm_clothing if you are currently si
 ** *USER NAME*: Addison Silva, 
 ** *REGION*: USA, 
 ** *REVIEW*: his is over priced T-shirt, 
-** *SCORE:* 2
+** *SCORE:* -1
 +
 .RocketChat Channel Page
 image::05_rocketchat_channel-1.jpg[RocketChat, 640]
