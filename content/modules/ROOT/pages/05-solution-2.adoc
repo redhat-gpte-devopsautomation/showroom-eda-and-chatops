@@ -133,7 +133,7 @@ image::06_openshift_login-1.jpg[OpenShift, 560]
 image::06_openshift_login-2.jpg[OpenShift, 600]
 
 
-.. Navigate to the 'Networking' section, select 'Route,' change the project to 'aap,' and then click on the 'Create Route' button to configure the Event-driven Ansible route.
+.. Navigate to the 'Networking' section, select 'Route,' *change the project to `aap`*, and then click on the 'Create Route' button to configure the Event-driven Ansible route.
 
 +
 .OpenShift Route Page
