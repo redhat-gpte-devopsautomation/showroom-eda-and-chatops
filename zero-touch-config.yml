@@ -1,0 +1,38 @@
+---
+
+antora:
+  name: modules
+  dir: www
+  modules:
+    - name: index
+      label: 01 - Getting Started
+    - name: 02-agenda
+      label: 02 - Agenda
+    - name: 03-introduction
+      label: 03 - Workshop Introduction
+    - name: 04-solution-1
+      label: "04 - Product Manager : Monitoring System"
+      solveButton: true
+    - name: 05-solution-2
+      label: "05 - Admin : Connecting ChatOps"
+      solveButton: true
+    - name: 06-solution-3
+      label: "06 - Product Manager : Constructive Decisions"
+      solveButton: true
+    - name: 07-challenge
+      label: 07 - Challenge Lab (Optional)
+      solveButton: true
+    - name: 08-references
+      label: 08 - Learning References
+
+tabs:
+  - name: Controller
+    port: 8443
+    path: /#/login
+  - name: VSCode Editor
+    port: 8443
+    path: /editor/?folder=/home/rhel/ansible-files/
+  - name: ">_Controller CLI"
+    port: 443
+    path: /tty1
+

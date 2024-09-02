@@ -1,0 +1,10 @@
+---
+- name: Setup control node
+  hosts: bastions
+  gather_facts: false
+  vars:
+    USER: lab-user
+  tasks:
+    - name: Block already executed
+      ansible.builtin.debug:
+        msg: "Please go on"

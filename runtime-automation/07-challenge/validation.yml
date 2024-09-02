@@ -1,0 +1,9 @@
+---
+- name: Validation control node
+  hosts: bastions
+  vars:
+    USER: lab-user
+  tasks:
+    - name: Print msg
+      ansible.builtin.debug:
+        msg: "Setup has completed"
